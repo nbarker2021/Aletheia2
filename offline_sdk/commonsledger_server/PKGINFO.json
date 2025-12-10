@@ -1,0 +1,6 @@
+{
+  "name": "commonsledger_server",
+  "version": "0.3.0",
+  "summary": "CommonsLedger API server using mini-CQE sidecar + kernel beam split + adapter runner + HashWorld sim endpoint",
+  "author": "You"
+}

@@ -1,0 +1,216 @@
+{
+  "policy_version": "cqe_policy_v1",
+  "created": "2024-12-08T00:00:00Z",
+  "description": "Cartan-Quadratic Equivalence Policy v1 - Core governance rules for CQE operations",
+  
+  "axioms": {
+    "A": {
+      "name": "State Space",
+      "description": "States are overlays on E₈ with binary activations, optional weights/phase φ, and immutable pose",
+      "enforced": true,
+      "validation": ["overlay_structure", "immutable_pose", "e8_dimension"]
+    },
+    "B": {
+      "name": "Group Action",
+      "description": "A Weyl/Coxeter group G acts by isometries; geometry terms are Weyl-invariant",
+      "enforced": true,
+      "validation": ["weyl_invariance", "isometry_preservation"]
+    },
+    "C": {
+      "name": "Quadratic Objective",
+      "description": "Φ = αΦ_geom + βΦ_parity + γΦ_sparsity + δΦ_kissing + ν ≥ 0",
+      "enforced": true,
+      "validation": ["phi_non_negative", "component_weights"]
+    },
+    "D": {
+      "name": "Equivalence",
+      "description": "x ~_CQE y iff ∃g∈G: y=g·x, Φ(y)=Φ(x), and π(y)=π(x)",
+      "enforced": true,
+      "validation": ["parity_signature", "phi_equality", "group_action"]
+    },
+    "E": {
+      "name": "Operators (ALENA)",
+      "description": "Rθ, WeylReflect(sᵢ), Midpoint, ParityMirror; MORSR orchestrates",
+      "enforced": true,
+      "validation": ["operator_whitelist", "parameter_bounds"]
+    },
+    "F": {
+      "name": "Provenance",
+      "description": "Every accepted transition logs ΔΦ, op, reason code, policy stamp, and parent IDs",
+      "enforced": true,
+      "validation": ["complete_logging", "cnf_receipts", "audit_trail"]
+    },
+    "G": {
+      "name": "Compositionality",
+      "description": "Isomorphic domain objects embed to CQE-equivalent overlays",
+      "enforced": false,
+      "validation": ["domain_adapters", "embedding_consistency"]
+    }
+  },
+  
+  "acceptance_rules": {
+    "strict_decrease": {
+      "enabled": true,
+      "condition": "ΔΦ ≤ -ε",
+      "epsilon": 1e-6,
+      "priority": 1
+    },
+    "parity_decrease": {
+      "enabled": true,
+      "condition": "ΔΦ ≈ 0 AND Δπ < 0",
+      "epsilon_phi": 1e-6,
+      "priority": 2
+    },
+    "plateau": {
+      "enabled": true,
+      "condition": "ΔΦ ≈ 0 AND Δπ = 0",
+      "epsilon_phi": 1e-6,
+      "cap": 10,
+      "priority": 3
+    }
+  },
+  
+  "operators": {
+    "rotate": {
+      "enabled": true,
+      "parameters": {
+        "theta": {
+          "type": "float",
+          "min": -3.14159,
+          "max": 3.14159,
+          "default": 0.1
+        },
+        "axis": {
+          "type": "array",
+          "length": 8,
+          "default": [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+      }
+    },
+    "weyl_reflect": {
+      "enabled": true,
+      "parameters": {
+        "root_index": {
+          "type": "int",
+          "min": 0,
+          "max": 239
+        }
+      }
+    },
+    "midpoint": {
+      "enabled": true,
+      "parameters": {
+        "weight": {
+          "type": "float",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.5
+        }
+      }
+    },
+    "parity_mirror": {
+      "enabled": true,
+      "parameters": {}
+    }
+  },
+  
+  "shell_protocol": {
+    "enabled": true,
+    "initial_radius": 2.0,
+    "expansion_factors": [2, 4, 8],
+    "default_expansion_factor": 2,
+    "shell_types": ["radial", "graph"],
+    "default_shell_type": "radial",
+    "stopping_threshold": 0.1,
+    "ema_alpha": 0.3
+  },
+  
+  "bregman_optimization": {
+    "enabled": true,
+    "coupling_constant": 0.03,
+    "fejer_monotonicity": true,
+    "distance_function": "quadratic_plus_parity"
+  },
+  
+  "canonicalization": {
+    "enabled": true,
+    "epsilon": 1e-6,
+    "auto_snap": true,
+    "compression_threshold": 1
+  },
+  
+  "provenance": {
+    "enabled": true,
+    "log_all_transitions": true,
+    "generate_cnf_receipts": true,
+    "sign_receipts": false,
+    "ledger_format": "json",
+    "receipt_format": "jsonl"
+  },
+  
+  "crt_parallelization": {
+    "enabled": false,
+    "num_rings": 24,
+    "num_workers": 4,
+    "detect_defects": true
+  },
+  
+  "e8x3_projection": {
+    "enabled": false,
+    "conflict_resolution": "phi_probe",
+    "adaptive_weights": true
+  },
+  
+  "emcp_tqf": {
+    "enabled": false,
+    "enforce_parity_conservation": true,
+    "compute_topological_invariants": true
+  },
+  
+  "gnlc": {
+    "enabled": false,
+    "lambda_level": "λ₀",
+    "type_checking": true,
+    "reduction_strategy": "phi_decrease"
+  },
+  
+  "validation": {
+    "quadratic_law_harness": {
+      "enabled": true,
+      "tests": [
+        "cnf_path_independence",
+        "boundary_only_emission",
+        "phi_probe_determinism",
+        "crt_defect_detection",
+        "receipt_schema_compliance",
+        "ledger_sanity"
+      ]
+    }
+  },
+  
+  "limits": {
+    "max_iterations": 1000,
+    "max_plateau_accepts": 10,
+    "max_shell_expansions": 5,
+    "max_overlay_size": 240,
+    "max_e8_norm": 10.0
+  },
+  
+  "constants": {
+    "phi_coupling": 0.03,
+    "fibonacci_f9": 34,
+    "golden_ratio": 1.618033988749895,
+    "e8_dimension": 8,
+    "e8_roots": 240,
+    "weyl_chambers": 48,
+    "digital_roots": 10
+  },
+  
+  "metadata": {
+    "author": "CQE Development Team",
+    "whitepaper_version": "v5.0",
+    "implementation_version": "v8.0",
+    "last_updated": "2024-12-08T00:00:00Z",
+    "status": "production"
+  }
+}
