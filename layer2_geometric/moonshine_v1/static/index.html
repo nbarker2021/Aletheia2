@@ -1,0 +1,42 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Monster/Moonshine VOA DB</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Monster/Moonshine VOA Embeddings — Personal Server</h1>
+  <section>
+    <h3>Add Item</h3>
+    <textarea id="points" rows="6" placeholder='[[x,y], ...]'></textarea>
+    <div>
+      <label>Kind <input id="kind" value="geom"></label>
+      <label>Channel <input id="channel" value="3"></label>
+      <button onclick="addItem()">Add</button>
+    </div>
+  </section>
+  <section>
+    <h3>Search</h3>
+    <textarea id="qpoints" rows="6" placeholder='[[x,y], ...]'></textarea>
+    <div>
+      <label>Chart
+        <select id="chart">
+          <option value="">(all)</option>
+          <option>moonshine</option>
+          <option>geom</option>
+          <option>cqe</option>
+        </select>
+      </label>
+      <button onclick="doSearch()">Search</button>
+    </div>
+    <pre id="results"></pre>
+  </section>
+  <section>
+    <h3>Stats</h3>
+    <pre id="stats"></pre>
+  </section>
+  <script src="/static/app.js"></script>
+</body>
+</html>

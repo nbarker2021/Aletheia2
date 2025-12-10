@@ -1,0 +1,6 @@
+
+body { font-family: system-ui, sans-serif; margin: 24px; }
+textarea { width: 520px; }
+section { margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid #ccc; }
+button { padding: 6px 12px; margin-left: 8px; }
+pre { background: #f7f7f7; padding: 12px; }
