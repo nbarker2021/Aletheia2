@@ -1,0 +1,20 @@
+{
+  "hmac_key": "bfHbvnyguoBfO8Ml19B/iF0lgQFa7dX9CG5Hyn+Jx0I=",
+  "payout_wallet": "W:PAYOUT",
+  "coins": [
+    "MERIT",
+    "THETA",
+    "DAVINCI",
+    "VANGOGH",
+    "MYTHOS",
+    "EULER",
+    "HYPATIA",
+    "CURIE",
+    "TESLA",
+    "TURING",
+    "SENECA"
+  ],
+  "mint_epoch_factor": 1.0,
+  "domain_saturation": 0.15,
+  "rng_scope": "cqe_council_v1"
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CQE CommonsLedger — Shippable v0.1</title>
+  <link rel="stylesheet" href="/web/style.css">
+</head>
+<body>
+  <h1>CQE CommonsLedger — Shippable v0.1</h1>
+  <nav>
+    <button onclick="show('ingest')">Ingest</button>
+    <button onclick="show('features')">Features</button>
+    <button onclick="show('mint')">Mint</button>
+    <button onclick="show('wallet')">Wallet</button>
+    <button onclick="show('tick')">Tick/Council</button>
+    <button onclick="show('market')">Markets</button>
+    <button onclick="show('bounty')">Bounties</button>
+    <button onclick="show('verify')">Verify</button>
+  </nav>
+
+  <section id="ingest" class="pane">
+    <h2>Upload (JSON)</h2>
+    <textarea id="upload_text" placeholder='{"name":"doc.txt","content":"fractal lattice note..."}'></textarea>
+    <button onclick="api('/assets/upload', getJSON('upload_text'))">Upload</button>
+  </section>
+
+  <section id="features" class="pane">
+    <h2>Auto Features</h2>
+    <textarea id="feat_src" placeholder="Paste text here..."></textarea>
+    <button onclick="extractAuto()">Extract Auto</button>
+    <h3>Validate</h3>
+    <textarea id="feat_json" placeholder='paste features JSON here...'></textarea>
+    <button onclick="validateFeatures()">Validate</button>
+    <pre id="feat_out"></pre>
+  </section>
+
+  <section id="mint" class="pane">
+    <h2>Mint</h2>
+    <textarea id="mint_json" placeholder='paste same features JSON...'></textarea>
+    <button onclick="scoreMint()">Score</button>
+    <button onclick="mintNow()">Mint Now</button>
+    <pre id="mint_out"></pre>
+  </section>
+
+  <section id="wallet" class="pane">
+    <h2>Wallet</h2>
+    <button onclick="loadBalance()">Load Balance</button>
+    <pre id="wallet_out"></pre>
+  </section>
+
+  <section id="tick" class="pane">
+    <h2>Tick/Council</h2>
+    <button onclick="post('/tick',{})">Tick</button>
+    <button onclick="post('/council/draw',{})">Council Draw</button>
+    <button onclick="post('/council/vote', {proposal:'market_stabilize', picked:['a','b','c']})">Council Vote</button>
+    <pre id="tick_out"></pre>
+  </section>
+
+  <section id="market" class="pane">
+    <h2>Markets</h2>
+    <button onclick="post('/markets/shock',{soc:'U',shock:{resource:-0.12}})">Shock</button>
+    <button onclick="post('/markets/stabilize',{soc:'U',k:'EMA_4'})">Stabilize</button>
+    <button onclick="post('/markets/understanding_spend',{soc:'A',agent:'room.A.3',topic:'bridges:TESLA↔CURIE',chits:2})">Spend Understanding</button>
+    <pre id="market_out"></pre>
+  </section>
+
+  <section id="bounty" class="pane">
+    <h2>Bounties</h2>
+    <button onclick="post('/bounty/open',{id:'B:test',title:'Low-engagement closure',scorecard:{'5W1H':0.8,'AEGIS':0.7,'Novelty':0.6}})">Open</button>
+    <button onclick="post('/bounty/claim',{id:'B:test',by:'u:alice',evidence:'replication_log#1'})">Claim</button>
+    <button onclick="post('/bounty/payout',{id:'B:test',to:'u:alice',amount:{MERIT:10}})">Payout</button>
+    <pre id="bounty_out"></pre>
+  </section>
+
+  <section id="verify" class="pane">
+    <h2>Master Verify</h2>
+    <button onclick="get('/master/verify')">Verify</button>
+    <pre id="verify_out"></pre>
+  </section>
+
+  <script src="/web/app.js"></script>
+</body>
+</html>

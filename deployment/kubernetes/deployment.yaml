@@ -1,0 +1,123 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cqe-runtime
+  labels:
+    app: cqe-runtime
+    version: 4.0.0-beta
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cqe-runtime
+  template:
+    metadata:
+      labels:
+        app: cqe-runtime
+        version: 4.0.0-beta
+    spec:
+      containers:
+      - name: cqe-api
+        image: cqe-unified-runtime:4.0.0-beta
+        ports:
+        - containerPort: 8000
+          name: http
+        env:
+        - name: CQE_ENV
+          value: "production"
+        - name: CQE_LOG_LEVEL
+          value: "info"
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "2Gi"
+            cpu: "2000m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        volumeMounts:
+        - name: data
+          mountPath: /app/data
+        - name: logs
+          mountPath: /app/logs
+      volumes:
+      - name: data
+        persistentVolumeClaim:
+          claimName: cqe-data-pvc
+      - name: logs
+        persistentVolumeClaim:
+          claimName: cqe-logs-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cqe-runtime-service
+  labels:
+    app: cqe-runtime
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 8000
+    protocol: TCP
+    name: http
+  selector:
+    app: cqe-runtime
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: cqe-data-pvc
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 10Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: cqe-logs-pvc
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 5Gi
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: cqe-runtime-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: cqe-runtime
+  minReplicas: 3
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 80

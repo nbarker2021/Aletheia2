@@ -1,0 +1,43 @@
+{
+  "total_tests": 22,
+  "passed": 19,
+  "failed": 3,
+  "pass_rate": 86.36363636363636,
+  "passed_tests": [
+    "Import geometric_engine",
+    "E8Lattice available",
+    "LeechLattice available",
+    "Import GeometricPrimeGenerator",
+    "Generate first 100 primes",
+    "E8 prime (17) verification",
+    "Action lattice primes",
+    "Import Weyl modules",
+    "Chamber determination",
+    "Reflection through wall",
+    "Automatic chamber selection",
+    "Multiple selection strategies",
+    "Import Scene8 modules",
+    "Geometric hashing modules present",
+    "Morphonic modules present",
+    "MORSR import",
+    "Compression modules present",
+    "Database modules present",
+    "Corpus modules accessible"
+  ],
+  "failed_tests": [
+    "Frame generation",
+    "Video stream",
+    "System Integration"
+  ],
+  "warnings": [],
+  "performance": {
+    "E8Lattice available": 0.0011920928955078125,
+    "LeechLattice available": 0.0007152557373046875,
+    "Generate first 100 primes": 0.2849102020263672,
+    "E8 prime (17) verification": 0.0054836273193359375,
+    "Action lattice primes": 0.1971721649169922,
+    "Chamber determination": 0.04315376281738281,
+    "Reflection through wall": 0.027894973754882812,
+    "Automatic chamber selection": 0.9140968322753906
+  }
+}
