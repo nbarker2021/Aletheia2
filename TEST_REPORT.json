@@ -1,0 +1,78 @@
+{
+  "summary": {
+    "total_tests": 4,
+    "passed": 3,
+    "failed": 1,
+    "success_rate": 75.0,
+    "elapsed_time": 0.23279261589050293
+  },
+  "results": [
+    {
+      "test_name": "Protein Folding Optimization",
+      "success": true,
+      "details": "Optimized protein folding: 34.10% energy reduction",
+      "metrics": {
+        "initial_energy": 10.37379375213429,
+        "final_energy": 6.836128029537233,
+        "improvement_percent": 34.101947726396844,
+        "iterations": 50,
+        "amino_acids": 20,
+        "initial_dr": 5,
+        "final_dr": 5
+      },
+      "timestamp": "2025-12-06T16:43:51.001918"
+    },
+    {
+      "test_name": "Market Anomaly Detection",
+      "success": false,
+      "details": "Detected market anomaly with 0.0% recall",
+      "metrics": {
+        "total_windows": 90,
+        "anomalies_detected": 0,
+        "detected_crash": false,
+        "recall": 0.0,
+        "avg_coherence": 0.00619760738416487,
+        "min_coherence": 0.004657830138801381,
+        "anomaly_indices": []
+      },
+      "timestamp": "2025-12-06T16:43:51.095006"
+    },
+    {
+      "test_name": "Semantic Translation",
+      "success": true,
+      "details": "Translated with 100% accuracy using geometric semantics",
+      "metrics": {
+        "source_words": 2,
+        "translated_words": 2,
+        "accuracy": 1.0,
+        "source_sentence": "love wisdom",
+        "target_sentence": "amour sagesse",
+        "expected_sentence": "amour sagesse",
+        "source_drs": [
+          3,
+          2
+        ]
+      },
+      "timestamp": "2025-12-06T16:43:51.098048"
+    },
+    {
+      "test_name": "Procedural Music Generation",
+      "success": true,
+      "details": "Generated 16 notes with 46.7% harmony score",
+      "metrics": {
+        "notes_generated": 16,
+        "base_frequency": 432.0,
+        "seed_digit": 3,
+        "phi_relationships": 3,
+        "phi_score": 0.2,
+        "consonance_score": 0.7333333333333333,
+        "harmony_score": 0.4666666666666667,
+        "frequency_range": [
+          242.45180243482457,
+          1294.5373144214527
+        ]
+      },
+      "timestamp": "2025-12-06T16:43:51.105982"
+    }
+  ]
+}

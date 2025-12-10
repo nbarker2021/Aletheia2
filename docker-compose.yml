@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  # CQE Runtime API Server
+  cqe-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cqe-unified-runtime:4.0.0-beta
+    container_name: cqe-api
+    ports:
+      - "8000:8000"
+    environment:
+      - CQE_ENV=production
+      - CQE_LOG_LEVEL=info
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    command: python3 cqe_server.py
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+  
+  # CQE Explorer (Interactive)
+  cqe-explorer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cqe-unified-runtime:4.0.0-beta
+    container_name: cqe-explorer
+    ports:
+      - "8080:8080"
+    environment:
+      - CQE_ENV=development
+      - CQE_LOG_LEVEL=debug
+    volumes:
+      - ./data:/app/data
+      - ./notebooks:/app/notebooks
+    command: python3 cqe_explorer.py
+    restart: unless-stopped
+  
+  # CQE Worker (Background tasks)
+  cqe-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cqe-unified-runtime:4.0.0-beta
+    container_name: cqe-worker
+    environment:
+      - CQE_ENV=production
+      - CQE_LOG_LEVEL=info
+      - CQE_WORKER_MODE=true
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    command: python3 cqe_worker.py
+    restart: unless-stopped
+    depends_on:
+      - cqe-api
+
+volumes:
+  data:
+    driver: local
+  logs:
+    driver: local
+  notebooks:
+    driver: local
+
+networks:
+  default:
+    name: cqe-network
+    driver: bridge

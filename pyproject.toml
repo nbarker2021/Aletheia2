@@ -1,0 +1,145 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cqe-unified-runtime"
+version = "4.0.0-beta"
+description = "A comprehensive implementation of the CQE framework with 90% completion"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "CQE Research Team", email = "research@cqe.dev"}
+]
+maintainers = [
+    {name = "CQE Research Team", email = "research@cqe.dev"}
+]
+keywords = [
+    "cqe",
+    "consciousness",
+    "quantum",
+    "encoding",
+    "e8",
+    "lattice",
+    "geometry",
+    "morphonic",
+    "aletheia",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+viz = [
+    "matplotlib>=3.5.0",
+    "plotly>=5.0.0",
+]
+ml = [
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+]
+all = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "matplotlib>=3.5.0",
+    "plotly>=5.0.0",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/cqe-research/cqe-unified-runtime"
+Documentation = "https://cqe-unified-runtime.readthedocs.io/"
+Repository = "https://github.com/cqe-research/cqe-unified-runtime"
+"Bug Tracker" = "https://github.com/cqe-research/cqe-unified-runtime/issues"
+
+[project.scripts]
+cqe = "cqe_cli:main"
+cqe-server = "cqe_server:main"
+cqe-explorer = "cqe_explorer:main"
+
+[tool.setuptools]
+packages = [
+    "layer1_morphonic",
+    "layer2_geometric",
+    "layer2_geometric.e8",
+    "layer2_geometric.leech",
+    "layer2_geometric.niemeier",
+    "layer2_geometric.weyl",
+    "layer3_operational",
+    "layer4_governance",
+    "layer5_interface",
+    "utils",
+    "aletheia_system",
+    "aletheia_system.core",
+    "scene8",
+    "validators",
+]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.txt", "*.json", "*.yaml"]
+
+[tool.black]
+line-length = 100
+target-version = ['py39', 'py310', 'py311', 'py312']
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --strict-markers --cov=. --cov-report=html --cov-report=term"
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[tool.coverage.run]
+source = ["."]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*/__pycache__/*",
+    "*/venv/*",
+    "*/env/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "@abstractmethod",
+]

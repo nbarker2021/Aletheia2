@@ -1,0 +1,6 @@
+# Core dependencies
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Optional but recommended
+matplotlib>=3.5.0

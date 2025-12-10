@@ -1,0 +1,132 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/cqe_unified_runtime/comprehensive_test_harness.py", line 332, in test_2_market_anomaly_detection
+    coherence = phi.calculate(leech_point)
+                ^^^^^^^^^^^^^
+AttributeError: 'PhiMetric' object has no attribute 'calculate'
+Traceback (most recent call last):
+  File "/home/ubuntu/cqe_unified_runtime/comprehensive_test_harness.py", line 510, in test_3_semantic_translation
+    'source_drs': [int(dr) for dr in source_drs]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/cqe_unified_runtime/comprehensive_test_harness.py", line 510, in <listcomp>
+    'source_drs': [int(dr) for dr in source_drs]
+                   ^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'DigitalRoot'
+Traceback (most recent call last):
+  File "/home/ubuntu/cqe_unified_runtime/comprehensive_test_harness.py", line 583, in test_4_procedural_music
+    base_freq = sacred.get_frequency_for_dr(seed_digit)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SacredGeometryGovernance' object has no attribute 'get_frequency_for_dr'
+[16:42:40] [INFO] ================================================================================
+[16:42:40] [INFO] CQE Unified Runtime v7.0 - Comprehensive Test Harness
+[16:42:40] [INFO] ================================================================================
+[16:42:40] [INFO] 
+[16:42:40] [INFO] 
+[16:42:40] [INFO] ================================================================================
+[16:42:40] [INFO] TEST 1: Protein Folding Optimization via E8 Projection
+[16:42:40] [INFO] ================================================================================
+[16:42:41] [INFO] Initializing components...
+[16:42:41] [INFO] Protein sequence length: 20 amino acids
+[16:42:41] [INFO] Mapping amino acids to E8 space...
+[16:42:41] [INFO] Mapped 20 amino acids to E8 space
+[16:42:41] [INFO] Initial energy: 10.3738
+[16:42:41] [INFO] Optimizing folding configuration with MORSR...
+[16:42:41] [INFO]   Iteration 0: Energy = 10.3738
+[16:42:41] [INFO]   Iteration 10: Energy = 10.3738
+[16:42:41] [INFO]   Iteration 20: Energy = 9.5137
+[16:42:41] [INFO]   Iteration 30: Energy = 6.8253
+[16:42:41] [INFO]   Iteration 40: Energy = 6.8253
+[16:42:41] [INFO] Final energy: 6.8236
+[16:42:41] [INFO] Validating with conservation laws...
+[16:42:41] [INFO] Initial DR: 5, Final DR: 1
+[16:42:41] [INFO] ✅ TEST 1 PASSED: Optimized protein folding: 34.22% energy reduction
+[16:42:41] [INFO] 
+[16:42:41] [INFO] ================================================================================
+[16:42:41] [INFO] TEST 2: Financial Market Anomaly Detection
+[16:42:41] [INFO] ================================================================================
+[16:42:41] [INFO] Initializing components...
+[16:42:41] [INFO] Generating synthetic market data...
+[16:42:41] [INFO] Generated 100 price points with anomaly at t=60-65
+[16:42:41] [INFO] Mapping price data to Leech lattice...
+[16:42:41] [ERROR] ❌ TEST 2 FAILED: 'PhiMetric' object has no attribute 'calculate'
+[16:42:41] [INFO] 
+[16:42:41] [INFO] ================================================================================
+[16:42:41] [INFO] TEST 3: Semantic Translation via Geometry
+[16:42:41] [INFO] ================================================================================
+[16:42:41] [INFO] Initializing components...
+[16:42:41] [INFO] Setting up semantic concept mappings...
+[16:42:41] [INFO] Source sentence (EN): love wisdom
+[16:42:41] [INFO] Mapping source concepts to E8 space...
+[16:42:41] [INFO]   'love' → E8, DR=DigitalRoot.DR_3
+[16:42:41] [INFO]   'wisdom' → E8, DR=DigitalRoot.DR_2
+[16:42:41] [INFO] Finding semantic matches in target language...
+[16:42:41] [INFO]   'love' → 'amour' (distance=0.0000)
+[16:42:41] [INFO]   'wisdom' → 'sagesse' (distance=0.0000)
+[16:42:41] [INFO] Target sentence (FR): amour sagesse
+[16:42:41] [ERROR] ❌ TEST 3 FAILED: int() argument must be a string, a bytes-like object or a real number, not 'DigitalRoot'
+[16:42:41] [INFO] 
+[16:42:41] [INFO] ================================================================================
+[16:42:41] [INFO] TEST 4: Procedural Music Generation
+[16:42:41] [INFO] ================================================================================
+[16:42:41] [INFO] Initializing components...
+[16:42:41] [INFO] Generating musical seed from digit 3 (creative/trinity)...
+[16:42:41] [INFO] Seed vector (24D): norm=1.0000
+[16:42:41] [ERROR] ❌ TEST 4 FAILED: 'SacredGeometryGovernance' object has no attribute 'get_frequency_for_dr'
+[16:42:41] [INFO] 
+[16:42:41] [INFO] ================================================================================
+[16:42:41] [INFO] COMPREHENSIVE TEST REPORT
+[16:42:41] [INFO] ================================================================================
+[16:42:41] [INFO] 
+[16:42:41] [INFO] Total Tests: 4
+[16:42:41] [INFO] Passed: 1
+[16:42:41] [INFO] Failed: 3
+[16:42:41] [INFO] Success Rate: 25.0%
+[16:42:41] [INFO] Total Time: 0.18s
+[16:42:41] [INFO] 
+[16:42:41] [INFO] ✅ PASS - Test 1: Protein Folding Optimization
+[16:42:41] [INFO]   Details: Optimized protein folding: 34.22% energy reduction
+[16:42:41] [INFO]   Metrics: {
+    "initial_energy": 10.37379375213429,
+    "final_energy": 6.823550914010615,
+    "improvement_percent": 34.22318703216221,
+    "iterations": 50,
+    "amino_acids": 20,
+    "initial_dr": 5,
+    "final_dr": 1
+}
+[16:42:41] [INFO] 
+[16:42:41] [INFO] ❌ FAIL - Test 2: Market Anomaly Detection
+[16:42:41] [INFO]   Details: 'PhiMetric' object has no attribute 'calculate'
+[16:42:41] [INFO]   Metrics: {}
+[16:42:41] [INFO] 
+[16:42:41] [INFO] ❌ FAIL - Test 3: Semantic Translation
+[16:42:41] [INFO]   Details: int() argument must be a string, a bytes-like object or a real number, not 'DigitalRoot'
+[16:42:41] [INFO]   Metrics: {}
+[16:42:41] [INFO] 
+[16:42:41] [INFO] ❌ FAIL - Test 4: Procedural Music Generation
+[16:42:41] [INFO]   Details: 'SacredGeometryGovernance' object has no attribute 'get_frequency_for_dr'
+[16:42:41] [INFO]   Metrics: {}
+[16:42:41] [INFO] 
+Traceback (most recent call last):
+  File "/home/ubuntu/cqe_unified_runtime/comprehensive_test_harness.py", line 739, in <module>
+    all_passed = harness.run_all_tests()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/cqe_unified_runtime/comprehensive_test_harness.py", line 63, in run_all_tests
+    self.generate_report()
+  File "/home/ubuntu/cqe_unified_runtime/comprehensive_test_harness.py", line 716, in generate_report
+    json.dump({
+  File "/usr/lib/python3.11/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable
