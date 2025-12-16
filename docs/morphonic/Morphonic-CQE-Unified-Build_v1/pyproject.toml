@@ -1,0 +1,19 @@
+
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morphonic-cqe-unified"
+version = "1.0.0"
+description = "Unified build of Morphonic/CQE core, sidecar, apps, and experiments"
+authors = [{name="Unification Attempt", email="noreply@example.org"}]
+readme = "README_UNIFIED.md"
+requires-python = ">=3.10"
+classifiers = ["Programming Language :: Python :: 3"]
+
+[project.scripts]
+cqe-personal-node = "morphonic_cqe_unified.apps.cqe_personal_node:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

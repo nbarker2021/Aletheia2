@@ -1,5 +1,5 @@
 def create_experimental_comparison():
-    \"\"\"Create comparison with experimental/lattice results\"\"\"
+    """"""
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
     
     # Panel 1: Glueball Mass Spectrum

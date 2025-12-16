@@ -1,10 +1,12 @@
 """
 Improved Test 2: Market Anomaly Detection with Proper Phi Metric
 """
+from pathlib import Path
+
 
 import numpy as np
 import sys
-sys.path.insert(0, '/home/ubuntu/cqe_unified_runtime')
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from proper_phi_metric import ProperPhiMetric
 from layer4_governance.gravitational import GravitationalLayer

@@ -4,23 +4,23 @@
     "passed": 3,
     "failed": 1,
     "success_rate": 75.0,
-    "elapsed_time": 0.23279261589050293
+    "elapsed_time": 0.25173020362854004
   },
   "results": [
     {
       "test_name": "Protein Folding Optimization",
       "success": true,
-      "details": "Optimized protein folding: 34.10% energy reduction",
+      "details": "Optimized protein folding: 31.60% energy reduction",
       "metrics": {
         "initial_energy": 10.37379375213429,
-        "final_energy": 6.836128029537233,
-        "improvement_percent": 34.101947726396844,
+        "final_energy": 7.095419655567659,
+        "improvement_percent": 31.602460728430643,
         "iterations": 50,
         "amino_acids": 20,
         "initial_dr": 5,
-        "final_dr": 5
+        "final_dr": 3
       },
-      "timestamp": "2025-12-06T16:43:51.001918"
+      "timestamp": "2025-12-16T02:40:13.447839"
     },
     {
       "test_name": "Market Anomaly Detection",
@@ -35,7 +35,7 @@
         "min_coherence": 0.004657830138801381,
         "anomaly_indices": []
       },
-      "timestamp": "2025-12-06T16:43:51.095006"
+      "timestamp": "2025-12-16T02:40:13.564018"
     },
     {
       "test_name": "Semantic Translation",
@@ -53,7 +53,7 @@
           2
         ]
       },
-      "timestamp": "2025-12-06T16:43:51.098048"
+      "timestamp": "2025-12-16T02:40:13.566926"
     },
     {
       "test_name": "Procedural Music Generation",
@@ -72,7 +72,7 @@
           1294.5373144214527
         ]
       },
-      "timestamp": "2025-12-06T16:43:51.105982"
+      "timestamp": "2025-12-16T02:40:13.574195"
     }
   ]
 }

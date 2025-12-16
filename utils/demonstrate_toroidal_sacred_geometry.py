@@ -1,3 +1,4 @@
+from pathlib import Path
 def demonstrate_toroidal_sacred_geometry():
     """Comprehensive demonstration of toroidal sacred geometry module"""
     
@@ -124,17 +125,17 @@ if __name__ == "__main__":
         
         # Plot shell colored by pattern
         fig1 = viz.plot_toroidal_shell(shell_points, color_by='pattern')
-        fig1.savefig('/home/ubuntu/toroidal_shell_patterns.png', dpi=150, bbox_inches='tight')
+        fig1.savefig(str(Path(__file__).parent / 'toroidal_shell_patterns.png'), dpi=150, bbox_inches='tight')
         print(f"  Saved: toroidal_shell_patterns.png")
         
         # Plot shell colored by force type
         fig2 = viz.plot_toroidal_shell(shell_points, color_by='force')
-        fig2.savefig('/home/ubuntu/toroidal_shell_forces.png', dpi=150, bbox_inches='tight')
+        fig2.savefig(str(Path(__file__).parent / 'toroidal_shell_forces.png'), dpi=150, bbox_inches='tight')
         print(f"  Saved: toroidal_shell_forces.png")
         
         # Plot force field vectors
         fig3 = viz.plot_force_field_vectors(shell_points, force_field, sample_rate=20)
-        fig3.savefig('/home/ubuntu/toroidal_force_vectors.png', dpi=150, bbox_inches='tight')
+        fig3.savefig(str(Path(__file__).parent / 'toroidal_force_vectors.png'), dpi=150, bbox_inches='tight')
         print(f"  Saved: toroidal_force_vectors.png")
         
         plt.close('all')  # Clean up

@@ -1,3 +1,4 @@
+from pathlib import Path
 #!/usr/bin/env python3.11
 """
 Extended Lambda Calculus (Λ⊗E₈)
@@ -18,7 +19,7 @@ Key features:
 """
 
 import sys
-sys.path.insert(0, '/home/ubuntu/aletheia_complete_v1/core_system')
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from typing import Dict, List, Tuple, Optional, Any, Union
 from dataclasses import dataclass
@@ -511,7 +512,7 @@ def demo_lambda_e8_calculus():
     print(f"\nComposed lambda: {composed.to_string()}")
     
     # Export log
-    capture.export_log("/home/ubuntu/lambda_operations_log.json")
+    capture.export_log(str(Path(__file__).parent / "lambda_operations_log.json"))
     
     # Demonstrate evaluation
     print("\n" + "="*70)

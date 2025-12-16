@@ -1,5 +1,5 @@
 def create_overlay_flow_visualization():
-    \"\"\"Create visualization of fluid parcels as E8 overlays\"\"\"
+    """"""
     fig = plt.figure(figsize=(16, 6))
     
     # Panel 1: Classical fluid view

@@ -1,5 +1,5 @@
 def create_chaos_transition_diagram():
-    \"\"\"Create diagram showing laminar-turbulent transition\"\"\"
+    """"""
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
     
     # Panel 1: Lyapunov exponent vs Reynolds number

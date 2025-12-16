@@ -1,0 +1,110 @@
+{"GOV": {"layer": "L5"}, "WHAT": {"data_dir": "./test_data", "systems": ["speedlight", "geo_pipeline", "lattice_engine"], "version": "4.0"}, "kind": "runtime_init", "seq": 0, "ts": 1765863392.6180398}
+{"GOV": {"layer": "L5"}, "WHAT": {"operation": "embed"}, "kind": "process_start", "seq": 1, "ts": 1765863392.6183043}
+{"GOV": {"layer": "L5"}, "WHAT": {"type": "embed"}, "kind": "process_operation_selected", "seq": 2, "ts": 1765863392.6183379}
+{"GOV": {"layer": "L5"}, "WHAT": {"text_len": 24}, "kind": "process_embed_start", "seq": 3, "ts": 1765863392.6183548}
+{"GOV": {"layer": "L2"}, "WHAT": {"input_len": 24}, "kind": "geo_pipeline_start", "seq": 4, "ts": 1765863392.6183717}
+{"GOV": {"layer": "L2"}, "WHAT": {"text_len": 24}, "kind": "geo_pipeline_tokenize", "seq": 5, "ts": 1765863392.6183846}
+{"GOV": {"duration_ms": 0.0209808349609375, "function": "tokenize", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "tokenize", "seq": 6, "ts": 1765863392.6184263}
+{"GOV": {"layer": "L2"}, "WHAT": {"num_tokens": 24}, "kind": "geo_pipeline_embed", "seq": 7, "ts": 1765863392.6184673}
+{"GOV": {"duration_ms": 0.08487701416015625, "function": "embed", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "embed", "seq": 8, "ts": 1765863392.6185753}
+{"GOV": {"layer": "L2"}, "WHAT": {"shape": [24, 64]}, "kind": "geo_pipeline_transform", "seq": 9, "ts": 1765863392.618597}
+{"GOV": {"duration_ms": 8.0108642578125, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 10, "ts": 1765863392.6293797}
+{"GOV": {"duration_ms": 7.83848762512207, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 11, "ts": 1765863392.638248}
+{"GOV": {"duration_ms": 8.344411849975586, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 12, "ts": 1765863392.6471014}
+{"GOV": {"duration_ms": 8.44883918762207, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 13, "ts": 1765863392.6567507}
+{"GOV": {"duration_ms": 7.64012336730957, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 14, "ts": 1765863392.6649082}
+{"GOV": {"duration_ms": 5.328178405761719, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 15, "ts": 1765863392.6712887}
+{"GOV": {"duration_ms": 5.31768798828125, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 16, "ts": 1765863392.6769936}
+{"GOV": {"duration_ms": 5.352973937988281, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 17, "ts": 1765863392.6834784}
+{"GOV": {"duration_ms": 5.2814483642578125, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 18, "ts": 1765863392.6891487}
+{"GOV": {"duration_ms": 4.986286163330078, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 19, "ts": 1765863392.6950617}
+{"GOV": {"duration_ms": 5.108118057250977, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 20, "ts": 1765863392.7004714}
+{"GOV": {"duration_ms": 5.32841682434082, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 21, "ts": 1765863392.7067485}
+{"GOV": {"duration_ms": 88.3171558380127, "function": "forward", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "transform", "seq": 22, "ts": 1765863392.7069342}
+{"GOV": {"layer": "L2"}, "WHAT": {"shape": [24, 64]}, "kind": "geo_pipeline_project", "seq": 23, "ts": 1765863392.7069705}
+{"GOV": {"duration_ms": 5.147695541381836, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 24, "ts": 1765863392.7121463}
+{"GOV": {"layer": "L2"}, "WHAT": {"dimension": 64, "source": "geo_pipeline"}, "kind": "embedding", "seq": 25, "ts": 1765863392.7122676}
+{"GOV": {"duration_ms": 94.00629997253418, "layer": "L2", "steps": 4, "success": true}, "WHAT": {"logs": 4}, "kind": "geo_pipeline_end", "seq": 26, "ts": 1765863392.7123823}
+{"GOV": {"duration_ms": 0.23698806762695312, "function": "project", "layer": "L2", "module": "core.lattice_engine"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 27, "ts": 1765863392.7127}
+{"GOV": {"duration_ms": 0.28777122497558594, "function": "embed_to_e8", "layer": "L2", "module": "core.lattice_engine"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "lattice_embed", "seq": 28, "ts": 1765863392.7127433}
+{"GOV": {"layer": "L5"}, "WHAT": {"embedding_dim": 64}, "kind": "process_embed_complete", "seq": 29, "ts": 1765863392.7127707}
+{"GOV": {"duration_ms": 94.4976806640625, "layer": "L5", "steps": 3, "success": true}, "WHAT": {"logs": 3}, "kind": "process_end", "seq": 30, "ts": 1765863392.7128031}
+{"GOV": {"duration_ms": 94.53010559082031, "function": "process", "layer": "L5", "module": "core.morphonic_runtime"}, "WHAT": {"args_count": 3, "kwargs_keys": [], "result_type": "ProcessingResult"}, "kind": "process", "seq": 31, "ts": 1765863392.7128246}
+{"GOV": {"layer": "L5"}, "WHAT": {"operation": "validate"}, "kind": "process_start", "seq": 32, "ts": 1765863392.7128894}
+{"GOV": {"layer": "L5"}, "WHAT": {"type": "validate"}, "kind": "process_operation_selected", "seq": 33, "ts": 1765863392.7129085}
+{"GOV": {"layer": "L5"}, "WHAT": {"data_type": "list"}, "kind": "process_validate_start", "seq": 34, "ts": 1765863392.7129264}
+{"GOV": {"layer": "L2"}, "WHAT": {}, "kind": "validate_constraint_start", "seq": 35, "ts": 1765863392.7129486}
+{"GOV": {"duration_ms": 0.06222724914550781, "function": "project", "layer": "L2", "module": "core.lattice_engine"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 36, "ts": 1765863392.7130268}
+{"GOV": {"layer": "L2"}, "WHAT": {"distance": 0.5, "lattice": "e8"}, "kind": "validate_constraint_validation", "seq": 37, "ts": 1765863392.713065}
+{"GOV": {"duration_ms": 0.14829635620117188, "layer": "L2", "steps": 1, "success": true}, "WHAT": {"logs": 1}, "kind": "validate_constraint_end", "seq": 38, "ts": 1765863392.713098}
+{"GOV": {"duration_ms": 0.25963783264160156, "layer": "L5", "steps": 3, "success": true}, "WHAT": {"logs": 3}, "kind": "process_end", "seq": 39, "ts": 1765863392.7131495}
+{"GOV": {"duration_ms": 0.2815723419189453, "function": "process", "layer": "L5", "module": "core.morphonic_runtime"}, "WHAT": {"args_count": 3, "kwargs_keys": [], "result_type": "ProcessingResult"}, "kind": "process", "seq": 40, "ts": 1765863392.7131665}
+{"GOV": {"layer": "L5"}, "WHAT": {"timestamp": 1765863392.7132018}, "kind": "runtime_shutdown", "seq": 41, "ts": 1765863392.713202}
+{"ts": 1765863392.7133195, "kind": "anchor", "root": "e375052f6e3338b872ca496345d1d4107b16a8d122cf8715b17abd14453b1886", "count": 42}
+{"GOV": {"layer": "L5"}, "WHAT": {"data_dir": "./test_data", "systems": ["speedlight", "geo_pipeline", "lattice_engine"], "version": "4.0"}, "kind": "runtime_init", "seq": 0, "ts": 1765863405.287199}
+{"GOV": {"layer": "L5"}, "WHAT": {"operation": "validate"}, "kind": "process_start", "seq": 1, "ts": 1765863405.2873318}
+{"GOV": {"layer": "L5"}, "WHAT": {"type": "validate"}, "kind": "process_operation_selected", "seq": 2, "ts": 1765863405.2873533}
+{"GOV": {"layer": "L5"}, "WHAT": {"data_type": "list"}, "kind": "process_validate_start", "seq": 3, "ts": 1765863405.287373}
+{"GOV": {"layer": "L2"}, "WHAT": {}, "kind": "validate_constraint_start", "seq": 4, "ts": 1765863405.2873952}
+{"GOV": {"duration_ms": 0.1685619354248047, "function": "project", "layer": "L2", "module": "core.lattice_engine"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 5, "ts": 1765863405.2875826}
+{"GOV": {"layer": "L2"}, "WHAT": {"distance": 0.0, "lattice": "e8"}, "kind": "validate_constraint_validation", "seq": 6, "ts": 1765863405.2876472}
+{"GOV": {"duration_ms": 0.27370452880859375, "layer": "L2", "steps": 1, "success": true}, "WHAT": {"logs": 1}, "kind": "validate_constraint_end", "seq": 7, "ts": 1765863405.2876728}
+{"GOV": {"layer": "L5"}, "WHAT": {"valid": true}, "kind": "process_validate_complete", "seq": 8, "ts": 1765863405.2876987}
+{"GOV": {"duration_ms": 0.39076805114746094, "layer": "L5", "steps": 3, "success": true}, "WHAT": {"logs": 3}, "kind": "process_end", "seq": 9, "ts": 1765863405.287723}
+{"GOV": {"duration_ms": 0.4162788391113281, "function": "process", "layer": "L5", "module": "core.morphonic_runtime"}, "WHAT": {"args_count": 3, "kwargs_keys": [], "result_type": "ProcessingResult"}, "kind": "process", "seq": 10, "ts": 1765863405.2877393}
+{"GOV": {"layer": "L5"}, "WHAT": {"operation": "validate"}, "kind": "process_start", "seq": 11, "ts": 1765863405.287798}
+{"GOV": {"layer": "L5"}, "WHAT": {"type": "validate"}, "kind": "process_operation_selected", "seq": 12, "ts": 1765863405.2878106}
+{"GOV": {"layer": "L5"}, "WHAT": {"data_type": "list"}, "kind": "process_validate_start", "seq": 13, "ts": 1765863405.2878222}
+{"GOV": {"layer": "L2"}, "WHAT": {}, "kind": "validate_constraint_start", "seq": 14, "ts": 1765863405.287838}
+{"GOV": {"duration_ms": 0.07843971252441406, "function": "project", "layer": "L2", "module": "core.lattice_engine"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 15, "ts": 1765863405.2879283}
+{"GOV": {"layer": "L2"}, "WHAT": {"distance": 0.6633249580710799, "lattice": "e8"}, "kind": "validate_constraint_validation", "seq": 16, "ts": 1765863405.2879736}
+{"GOV": {"duration_ms": 0.1513957977294922, "layer": "L2", "steps": 1, "success": true}, "WHAT": {"logs": 1}, "kind": "validate_constraint_end", "seq": 17, "ts": 1765863405.2879903}
+{"GOV": {"layer": "L5"}, "WHAT": {"valid": false}, "kind": "process_validate_complete", "seq": 18, "ts": 1765863405.288007}
+{"GOV": {"duration_ms": 0.22530555725097656, "layer": "L5", "steps": 3, "success": true}, "WHAT": {"logs": 3}, "kind": "process_end", "seq": 19, "ts": 1765863405.2880237}
+{"GOV": {"duration_ms": 0.2429485321044922, "function": "process", "layer": "L5", "module": "core.morphonic_runtime"}, "WHAT": {"args_count": 3, "kwargs_keys": [], "result_type": "ProcessingResult"}, "kind": "process", "seq": 20, "ts": 1765863405.2880387}
+{"GOV": {"layer": "L5"}, "WHAT": {"timestamp": 1765863405.2880735}, "kind": "runtime_shutdown", "seq": 21, "ts": 1765863405.288074}
+{"ts": 1765863405.2881408, "kind": "anchor", "root": "21e6d364dba10ec6863cbf27d577a83f53675ff02847b39541821d05c5df11ac", "count": 22}
+{"GOV": {"layer": "L5"}, "WHAT": {"data_dir": "./test_data", "systems": ["speedlight", "geo_pipeline", "lattice_engine"], "version": "4.0"}, "kind": "runtime_init", "seq": 0, "ts": 1765865630.9303882}
+{"GOV": {"layer": "L5"}, "WHAT": {"operation": "embed"}, "kind": "process_start", "seq": 1, "ts": 1765865630.930519}
+{"GOV": {"layer": "L5"}, "WHAT": {"type": "embed"}, "kind": "process_operation_selected", "seq": 2, "ts": 1765865630.9305437}
+{"GOV": {"layer": "L5"}, "WHAT": {"text_len": 23}, "kind": "process_embed_start", "seq": 3, "ts": 1765865630.9305694}
+{"GOV": {"layer": "L2"}, "WHAT": {"input_len": 23}, "kind": "geo_pipeline_start", "seq": 4, "ts": 1765865630.9305854}
+{"GOV": {"layer": "L2"}, "WHAT": {"text_len": 23}, "kind": "geo_pipeline_tokenize", "seq": 5, "ts": 1765865630.9305975}
+{"GOV": {"duration_ms": 0.012874603271484375, "function": "tokenize", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "tokenize", "seq": 6, "ts": 1765865630.9306269}
+{"GOV": {"layer": "L2"}, "WHAT": {"num_tokens": 23}, "kind": "geo_pipeline_embed", "seq": 7, "ts": 1765865630.930647}
+{"GOV": {"duration_ms": 0.09226799011230469, "function": "embed", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "embed", "seq": 8, "ts": 1765865630.9307597}
+{"GOV": {"layer": "L2"}, "WHAT": {"shape": [23, 64]}, "kind": "geo_pipeline_transform", "seq": 9, "ts": 1765865630.9307792}
+{"GOV": {"duration_ms": 4.774332046508789, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 10, "ts": 1765865630.935741}
+{"GOV": {"duration_ms": 4.30750846862793, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 11, "ts": 1765865630.940786}
+{"GOV": {"duration_ms": 4.493236541748047, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 12, "ts": 1765865630.9455006}
+{"GOV": {"duration_ms": 4.651069641113281, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 13, "ts": 1765865630.9508672}
+{"GOV": {"duration_ms": 4.50444221496582, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 14, "ts": 1765865630.9555705}
+{"GOV": {"duration_ms": 4.622936248779297, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 15, "ts": 1765865630.960903}
+{"GOV": {"duration_ms": 4.662036895751953, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 16, "ts": 1765865630.9657927}
+{"GOV": {"duration_ms": 4.581689834594727, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 17, "ts": 1765865630.9711366}
+{"GOV": {"duration_ms": 4.477024078369141, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 18, "ts": 1765865630.9758549}
+{"GOV": {"duration_ms": 4.87971305847168, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 19, "ts": 1765865630.9815023}
+{"GOV": {"duration_ms": 4.09698486328125, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 20, "ts": 1765865630.985787}
+{"GOV": {"duration_ms": 4.523515701293945, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 21, "ts": 1765865630.9910204}
+{"GOV": {"duration_ms": 60.33492088317871, "function": "forward", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "transform", "seq": 22, "ts": 1765865630.9911304}
+{"GOV": {"layer": "L2"}, "WHAT": {"shape": [23, 64]}, "kind": "geo_pipeline_project", "seq": 23, "ts": 1765865630.9911778}
+{"GOV": {"duration_ms": 4.340171813964844, "function": "project", "layer": "L2", "module": "core.geo_pipeline"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 24, "ts": 1765865630.9955392}
+{"GOV": {"layer": "L2"}, "WHAT": {"dimension": 64, "source": "geo_pipeline"}, "kind": "embedding", "seq": 25, "ts": 1765865630.9956026}
+{"GOV": {"duration_ms": 65.11878967285156, "layer": "L2", "steps": 4, "success": true}, "WHAT": {"logs": 4}, "kind": "geo_pipeline_end", "seq": 26, "ts": 1765865630.9957068}
+{"GOV": {"duration_ms": 0.19121170043945312, "function": "project", "layer": "L2", "module": "core.lattice_engine"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 27, "ts": 1765865630.9959557}
+{"GOV": {"duration_ms": 0.2243518829345703, "function": "embed_to_e8", "layer": "L2", "module": "core.lattice_engine"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "lattice_embed", "seq": 28, "ts": 1765865630.9959838}
+{"GOV": {"layer": "L5"}, "WHAT": {"embedding_dim": 64}, "kind": "process_embed_complete", "seq": 29, "ts": 1765865630.9960082}
+{"GOV": {"duration_ms": 65.51551818847656, "layer": "L5", "steps": 3, "success": true}, "WHAT": {"logs": 3}, "kind": "process_end", "seq": 30, "ts": 1765865630.9960353}
+{"GOV": {"duration_ms": 65.54079055786133, "function": "process", "layer": "L5", "module": "core.morphonic_runtime"}, "WHAT": {"args_count": 3, "kwargs_keys": [], "result_type": "ProcessingResult"}, "kind": "process", "seq": 31, "ts": 1765865630.9960535}
+{"GOV": {"layer": "L5"}, "WHAT": {"operation": "validate"}, "kind": "process_start", "seq": 32, "ts": 1765865630.9961042}
+{"GOV": {"layer": "L5"}, "WHAT": {"type": "validate"}, "kind": "process_operation_selected", "seq": 33, "ts": 1765865630.9961357}
+{"GOV": {"layer": "L5"}, "WHAT": {"data_type": "list"}, "kind": "process_validate_start", "seq": 34, "ts": 1765865630.9961522}
+{"GOV": {"layer": "L2"}, "WHAT": {}, "kind": "validate_constraint_start", "seq": 35, "ts": 1765865630.9961717}
+{"GOV": {"duration_ms": 0.04696846008300781, "function": "project", "layer": "L2", "module": "core.lattice_engine"}, "WHAT": {"args_count": 2, "kwargs_keys": [], "result_type": "ndarray"}, "kind": "e8_project", "seq": 36, "ts": 1765865630.9962318}
+{"GOV": {"layer": "L2"}, "WHAT": {"distance": 0.0, "lattice": "e8"}, "kind": "validate_constraint_validation", "seq": 37, "ts": 1765865630.9962668}
+{"GOV": {"duration_ms": 0.11777877807617188, "layer": "L2", "steps": 1, "success": true}, "WHAT": {"logs": 1}, "kind": "validate_constraint_end", "seq": 38, "ts": 1765865630.9962904}
+{"GOV": {"layer": "L5"}, "WHAT": {"valid": true}, "kind": "process_validate_complete", "seq": 39, "ts": 1765865630.9963074}
+{"GOV": {"duration_ms": 0.21958351135253906, "layer": "L5", "steps": 3, "success": true}, "WHAT": {"logs": 3}, "kind": "process_end", "seq": 40, "ts": 1765865630.996324}
+{"GOV": {"duration_ms": 0.23984909057617188, "function": "process", "layer": "L5", "module": "core.morphonic_runtime"}, "WHAT": {"args_count": 3, "kwargs_keys": [], "result_type": "ProcessingResult"}, "kind": "process", "seq": 41, "ts": 1765865630.99634}
+{"GOV": {"layer": "L5"}, "WHAT": {"timestamp": 1765865630.9963703}, "kind": "runtime_shutdown", "seq": 42, "ts": 1765865630.9963708}
+{"ts": 1765865630.9964726, "kind": "anchor", "root": "f1d83597ec7486a1eef5e0a748e87e4d07d5b0a71495000e9df35d0f569a1b84", "count": 43}

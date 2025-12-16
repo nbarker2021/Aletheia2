@@ -1,3 +1,4 @@
+from pathlib import Path
 #!/usr/bin/env python3
 """
 Validation of Closed Proto-Language and Self-Healing Properties
@@ -411,7 +412,7 @@ def main():
     results = validator.validate()
     
     # Save results
-    output_file = "/home/ubuntu/aletheia_ai/PROTO_LANGUAGE_VALIDATION.json"
+    output_file = str(Path(__file__).parent / "aletheia_ai/PROTO_LANGUAGE_VALIDATION.json")
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=2)
     

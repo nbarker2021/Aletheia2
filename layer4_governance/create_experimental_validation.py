@@ -1,5 +1,5 @@
 def create_experimental_validation():
-    \"\"\"Create experimental validation plots\"\"\"
+    """"""
     fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(14, 10))
     
     # Panel 1: Critical Reynolds number comparison

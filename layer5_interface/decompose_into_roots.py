@@ -8,16 +8,3 @@ def decompose_into_roots(weight_vector):
     
     # Return non-zero coefficients
     decomposition = {}
-    for i, coeff in enumerate(coefficients):
-        if abs(coeff) > 1e-10:
-            decomposition[roots[i]] = coeff
-    
-    return decomposition
-```
-
-\section{Verification Protocols}
-
-\subsection{Cohomology Class Verification}
-
-\textbf{Class Equality Check}
-```python

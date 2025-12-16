@@ -1,0 +1,3528 @@
+# Existing Implementations Found in Corpus
+
+**Analysis Date:** October 17, 2025
+
+---
+
+## Summary
+
+- **Features Searched:** 20
+- **Implementations Found:** 18
+- **Coverage:** 90.0%
+
+---
+
+## Found Implementations
+
+### 0.03x2 Parity
+
+**Files found:** 158
+
+- `cqe_organized/CODE/python/3476107abee3__cqe-gvs_src__cqe_gvs.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/c651e0fa39ce__src_core__e8_ops.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/f9268567874c__src_core__toroidal_geometry.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/37fd0755422a__src_rendering__render_engine.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/73724858297f__src_worlds__world_forge.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/e00fe73ed555__cqe_core__morsr_explorer.py`
+  - Patterns matched: parity.*enforcement
+- `cqe_organized/CODE/python/c3174e63be9d__cqe_modules__cqe_runner_complete.py`
+  - Patterns matched: parity.*enforcement
+- `cqe_organized/CODE/python/6adade10d20e__cqe_modules__enhanced_complete_morsr_explorer.py`
+  - Patterns matched: parity.*enforcement
+- `cqe_organized/CODE/python/27cb291ae060__cqe_modules__domain_adapter.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/673709a38569__cqe_modules__generate_yangmills_figures.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/a701eceb829c__cqe_modules__iterative_fire_chain_explorer.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/dc1548103e8f__cqe_modules__script (34).py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/7b6f4e4c72e0__cqe_modules__script (45).py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/eed3562140c7__cqe_modules__script (49).py`
+  - Patterns matched: parity.*enforcement
+- `cqe_organized/CODE/python/403616da58cc__cqe_modules__script (55).py`
+  - Patterns matched: parity.*enforcement
+- `cqe_organized/CODE/python/f11079138967__cqe_modules__script (6).py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/6a48bebfb3bb__cqe_modules__script (61).py`
+  - Patterns matched: parity.*enforcement
+- `cqe_organized/CODE/python/4765f6449d0d__cqe_modules__script (63).py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/8655265b7c41__cqe_modules__script (64).py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/587d059b3512__cqe_modules__script (7).py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/0c53fa909906__cqe_dr0_gravity__cqe_master_orchestrator.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/3317521d856f__np_random__distributions.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/81b9541d4888__numpy_lib___polynomial_impl.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/4f4beb0ec3ab__numpy_polynomial__chebyshev.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/4832beae47ea__benchmarks_go_benchmark_functions__go_funcs_H.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/f9da63d0a295__benchmarks_go_benchmark_functions__go_funcs_J.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/0b46fada4019__benchmarks_go_benchmark_functions__go_funcs_K.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/fce015701de3__benchmarks_go_benchmark_functions__go_funcs_R.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/b97bf0d8ae1f__benchmarks_go_benchmark_functions__go_funcs_univariate.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/d38614e39d4e__scipy_integrate___quad_vec.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/48a20d3a781f__integrate__ivp__bdf.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/aa16f42cc85f__integrate__ivp__ivp.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/d0aa4593431e__integrate__ivp__radau.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/50ba4730945d__integrate__rules___gauss_kronrod.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/b235a67d9f41__scipy_interpolate___bary_rational.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/1bad6ab4c9d7__scipy_interpolate___bsplines.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/42041f7de045__scipy_linalg___basic.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/5e3ad04060a2__scipy_linalg___decomp_schur.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/6e1c6f3d1744__scipy_linalg___special_matrices.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/e9b2332222f0__scipy_optimize___qap.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/04169386964d__scipy_optimize___tstutils.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/14861401b11e__scipy_signal___fir_filter_design.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/d93c398305c7__signal_windows___windows.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/e61e2f88aac5__sparse_linalg___funm_multiply_krylov.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/342bb6005de8__sparse_linalg___special_sparse_arrays.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/73150b94c0b8__scipy_spatial__distance.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/65b0df11c8d4__scipy_special___add_newdocs.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/dcc94eb3a35d__scipy_special___basic.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/8e883106e5cb__special__precompute__gammainc_data.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/4ecec649862d__scipy_stats___censored_data.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/96a382cf90d5__scipy_stats___continuous_distns.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/6c3d9276ad1e__scipy_stats___distr_params.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/1b3c3f69c4e4__scipy_stats___hypotests.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/bbc422724acd__scipy_stats___mannwhitneyu.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/0a30b1361f4f__scipy_stats___mgc.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/374d50a25e80__scipy_stats___morestats.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/3fe227395843__scipy_stats___multivariate.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/cf0211a79872__scipy_stats___qmc.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/3be41be74864__scipy_stats___stats_py.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/e09c819bf7e9__stats__levy_stable____init__.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/04ac4f022e21__tests_data__fisher_exact_results_from_r.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/1aa665dfc70a__CQEPlus_auto_full_docs__4c61c34d2f__STAGING_COMBINED.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/9f1afe4a2247__src_engine__f301e10627__engine.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/73647190f243__CQEPlus_auto_full_scripts__f98f7850a0__script_exported-assets.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/a0da13b857c2__cqe_unified_cqe_unified__domain_adapter.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/6074512a14c2__src_cqe_core__dtt_orchestrator.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/849c43649c90__CQE_FORMALIZATION_harnesses__H06_0_03_Metric_Properties.py`
+  - Patterns matched: 0\.03
+- `cqe_organized/CODE/python/0cc98c1e38c8__CQE_FORMALIZATION_harnesses__H09_Golden_Spiral_Sampling.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/04169386964d__scipy_optimize___tstutils.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/04ac4f022e21__tests_data__fisher_exact_results_from_r.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/0a30b1361f4f__scipy_stats___mgc.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/0b46fada4019__benchmarks_go_benchmark_functions__go_funcs_K.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/0c53fa909906__cqe_dr0_gravity__cqe_master_orchestrator.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/0cc98c1e38c8__CQE_FORMALIZATION_harnesses__H09_Golden_Spiral_Sampling.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/14861401b11e__scipy_signal___fir_filter_design.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/1aa665dfc70a__CQEPlus_auto_full_docs__4c61c34d2f__STAGING_COMBINED.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/1b3c3f69c4e4__scipy_stats___hypotests.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/1bad6ab4c9d7__scipy_interpolate___bsplines.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/27cb291ae060__cqe_modules__domain_adapter.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/3317521d856f__np_random__distributions.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/342bb6005de8__sparse_linalg___special_sparse_arrays.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/3476107abee3__cqe-gvs_src__cqe_gvs.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/374d50a25e80__scipy_stats___morestats.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/37fd0755422a__src_rendering__render_engine.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/3be41be74864__scipy_stats___stats_py.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/3fe227395843__scipy_stats___multivariate.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/403616da58cc__cqe_modules__script (55).py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/corpus_modules/42041f7de045__scipy_linalg___basic.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/4765f6449d0d__cqe_modules__script (63).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/4832beae47ea__benchmarks_go_benchmark_functions__go_funcs_H.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/48a20d3a781f__integrate__ivp__bdf.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/4ecec649862d__scipy_stats___censored_data.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/4f4beb0ec3ab__numpy_polynomial__chebyshev.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/50ba4730945d__integrate__rules___gauss_kronrod.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/587d059b3512__cqe_modules__script (7).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/5e3ad04060a2__scipy_linalg___decomp_schur.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/6074512a14c2__src_cqe_core__dtt_orchestrator.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/65b0df11c8d4__scipy_special___add_newdocs.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/673709a38569__cqe_modules__generate_yangmills_figures.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/6a48bebfb3bb__cqe_modules__script (61).py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/corpus_modules/6adade10d20e__cqe_modules__enhanced_complete_morsr_explorer.py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/corpus_modules/6c3d9276ad1e__scipy_stats___distr_params.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/6e1c6f3d1744__scipy_linalg___special_matrices.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/73150b94c0b8__scipy_spatial__distance.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/73647190f243__CQEPlus_auto_full_scripts__f98f7850a0__script_exported-assets.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/73724858297f__src_worlds__world_forge.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/7b6f4e4c72e0__cqe_modules__script (45).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/81b9541d4888__numpy_lib___polynomial_impl.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/849c43649c90__CQE_FORMALIZATION_harnesses__H06_0_03_Metric_Properties.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/8655265b7c41__cqe_modules__script (64).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/8e883106e5cb__special__precompute__gammainc_data.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/96a382cf90d5__scipy_stats___continuous_distns.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/9f1afe4a2247__src_engine__f301e10627__engine.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/a0da13b857c2__cqe_unified_cqe_unified__domain_adapter.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/a701eceb829c__cqe_modules__iterative_fire_chain_explorer.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/aa16f42cc85f__integrate__ivp__ivp.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/b235a67d9f41__scipy_interpolate___bary_rational.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/b97bf0d8ae1f__benchmarks_go_benchmark_functions__go_funcs_univariate.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/bbc422724acd__scipy_stats___mannwhitneyu.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/c3174e63be9d__cqe_modules__cqe_runner_complete.py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/corpus_modules/c651e0fa39ce__src_core__e8_ops.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/cf0211a79872__scipy_stats___qmc.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/d0aa4593431e__integrate__ivp__radau.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/d38614e39d4e__scipy_integrate___quad_vec.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/d93c398305c7__signal_windows___windows.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/dc1548103e8f__cqe_modules__script (34).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/dcc94eb3a35d__scipy_special___basic.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/e00fe73ed555__cqe_core__morsr_explorer.py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/corpus_modules/e09c819bf7e9__stats__levy_stable____init__.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/e61e2f88aac5__sparse_linalg___funm_multiply_krylov.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/e9b2332222f0__scipy_optimize___qap.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/eed3562140c7__cqe_modules__script (49).py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/corpus_modules/f11079138967__cqe_modules__script (6).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/f9268567874c__src_core__toroidal_geometry.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/f9da63d0a295__benchmarks_go_benchmark_functions__go_funcs_J.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/corpus_modules/fce015701de3__benchmarks_go_benchmark_functions__go_funcs_R.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/0c53fa909906__cqe_dr0_gravity__cqe_master_orchestrator.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/0cc98c1e38c8__CQE_FORMALIZATION_harnesses__H09_Golden_Spiral_Sampling.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/27cb291ae060__cqe_modules__domain_adapter.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/3476107abee3__cqe-gvs_src__cqe_gvs.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/403616da58cc__cqe_modules__script (55).py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/cqe_native/4765f6449d0d__cqe_modules__script (63).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/587d059b3512__cqe_modules__script (7).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/6074512a14c2__src_cqe_core__dtt_orchestrator.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/673709a38569__cqe_modules__generate_yangmills_figures.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/6a48bebfb3bb__cqe_modules__script (61).py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/cqe_native/6adade10d20e__cqe_modules__enhanced_complete_morsr_explorer.py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/cqe_native/7b6f4e4c72e0__cqe_modules__script (45).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/849c43649c90__CQE_FORMALIZATION_harnesses__H06_0_03_Metric_Properties.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/8655265b7c41__cqe_modules__script (64).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/a0da13b857c2__cqe_unified_cqe_unified__domain_adapter.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/a701eceb829c__cqe_modules__iterative_fire_chain_explorer.py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/c3174e63be9d__cqe_modules__cqe_runner_complete.py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/cqe_native/dc1548103e8f__cqe_modules__script (34).py`
+  - Patterns matched: 0\.03
+- `aletheia_ai/cqe_native/e00fe73ed555__cqe_core__morsr_explorer.py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/cqe_native/eed3562140c7__cqe_modules__script (49).py`
+  - Patterns matched: parity.*enforcement
+- `aletheia_ai/cqe_native/f11079138967__cqe_modules__script (6).py`
+  - Patterns matched: 0\.03
+- `scene8_standalone/src/scene8_complete.py`
+  - Patterns matched: 0\.03
+
+### Compression Suite
+
+**Files found:** 280
+
+- `cqe_organized/CODE/python/5eb9a193b215__cqe_core__cqe_complete_system.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/baad1fcfdb3a__cqe_modules__advanced_applications.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/59a76bb2194b__cqe_modules__basic_usage_examples.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/d3394c6dd555__cqe_modules__cqe_analyzer.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/fdaf6e8d1284__cqe_modules__cqe_interface_manager.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/63ea150d5dd9__cqe_modules__cqe_mandelbrot_fractal_integration.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/6b2a9bd6431a__cqe_modules__cqe_operating_system.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/e15abf8fd61d__cqe_modules__cqe_storage_manager.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/00c2d640b2c4__cqe_modules__cqe_system.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/a4dffb4c021a__cqe_modules__cqe_ultimate_system.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/b84a6c080da7__cqe_modules__ultimate_unified_cqe_system.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/67c6d24859ca__cqe_modules__scalability_benchmarks.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/d9403d23a7c4__cqe_modules__script (10).py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/afb7d25ade02__cqe_modules__script (8).py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/7fd04365474b__cqe_modules__script (9).py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/6cba8b0d1602__numba_core__boxing.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/4ce1f4085534__numba_core__targetconfig.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/2b1b0ff3298a__core_datamodel__models.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/0e4a392ec28f__core_types__npytypes.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/36207968ac20__numba_cpython__builtins.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/c69ae3cc0436__numba_cpython__charseq.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/20991076cc22__numba_cpython__unicode.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/9f0011590425__numba_cpython__unicode_support.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/059982fe4b43__numba_np__arrayobj.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/bae38d3d22de__numba_np__numpy_support.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/912e09eb2bb1__benchmarks_benchmarks__bench_ma.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/be25b886305b__numpy-main_numpy____init__.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/bee6bcb52e45__numpy__core___add_newdocs.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/a994122a1fa3__numpy__core__fromnumeric.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/c00d855e0b2f__numpy__core__strings.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/5e1bc018b2b2___core_code_generators__numpy_api.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/bdb02f5a3e97__numpy_f2py__crackfortran.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/ce4f956e7e09__numpy_lib___datasource.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/a64ec07bace0__numpy_lib___function_base_impl.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/f3d1ef5bf6cf__numpy_lib___npyio_impl.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/797b807b52fe__numpy_ma__core.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/bc5308876c70__numpy_ma__extras.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/77f8552f2ad5__data_pass__fromnumeric.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/c0514bfdb91e__data_pass__ndarray_misc.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/55b11d33f79d__tools_c_coverage__c_coverage_report.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/86ab0393f5d1__benchmarks_benchmarks__io_matlab.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/c32fa7e2f47f__benchmarks_benchmarks__stats.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/7c2d68bbcbba__scipy__lib___elementwise_iterative_method.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/a60cd6896479__scipy_cluster____init__.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/1ca1590c16b3__scipy_cluster__vq.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/a643d888fdac__scipy_datasets___fetchers.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/e7a84465394d__scipy_differentiate___differentiate.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/b01bdbffecbd__scipy_integrate___tanhsinh.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/b202f4208e84__scipy_io___idl.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/b01a20806a38__scipy_io__wavfile.py`
+  - Patterns matched: codec, compress
+- `cqe_organized/CODE/python/a8e649c53f9b__io__harwell_boeing__hb.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/1ce3750b2b23__io_matlab___mio.py`
+  - Patterns matched: codec, compress
+- `cqe_organized/CODE/python/841bd5727014__io_matlab___mio5.py`
+  - Patterns matched: codec, compress
+- `cqe_organized/CODE/python/b2445c286ef4__io_matlab___mio5_params.py`
+  - Patterns matched: codec, compress
+- `cqe_organized/CODE/python/0263310f9a6e__io_matlab___miobase.py`
+  - Patterns matched: codec, compress
+- `cqe_organized/CODE/python/3c3dd54a0511__scipy_linalg__interpolative.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/0a1bae3c3aa8__scipy_signal___filter_design.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/eec62a0f12dc__scipy_sparse____init__.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/9007938682ba__scipy_sparse___base.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/d0eaee2fd7af__scipy_sparse___bsr.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/2499f6044fe5__scipy_sparse___compressed.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/7516055d7697__scipy_sparse___construct.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/221c92376cc9__scipy_sparse___coo.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/03edaeaf5e5a__scipy_sparse___csc.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/9304dfc1a5e7__scipy_sparse___csr.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/9d677ceb3264__scipy_sparse___data.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/d0d596d34871__scipy_sparse___extract.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/374f3aad0171__scipy_sparse___matrix_io.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/972122f940fa__scipy_sparse__compressed.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/ce7ac4778f09__sparse_csgraph____init__.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/6e909db915a3__sparse_csgraph___laplacian.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/4b120db5de23__sparse_csgraph___validation.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/3b9239026482__sparse_linalg___matfuncs.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/342bb6005de8__sparse_linalg___special_sparse_arrays.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/2a8d758d9c95__special_utils__makenpz.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/f4eadd9a5c6f__scipy_stats___distribution_infrastructure.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/61e0e32a29c0__scipy_stats___mstats_basic.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/d0b2f723eb4e__scipy_stats___mstats_extras.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/3be41be74864__scipy_stats___stats_py.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/a81d79ca39df__numba-scipy-main_numba_scipy__sparse.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/f3cdef55f1f3__cuda_np__numpy_support.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/ef9468f3a61e__lattpy-master_lattpy__data.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/259347781135__magnitude-master_pymagnitude____init__.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/a26b9d5bb945__magnitude-master_pymagnitude__converter.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/79fcddaa16be__third_party__apsw__setup.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/1250a585c870___apsw_tools__shell.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/a37e8dac0dfe__third_party__pysqlite____init__.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/bbba541a7032__third_party__pysqlite__setup.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/665f9de36678__allennlp_data__vocabulary.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/933aca93eb16__dataset_readers_dataset_utils__ontonotes.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/3b1ebd55bee8__modules_token_embedders__embedding.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/4f7f68ff0019__Build_v_1_0_cqe_operating_system_complete____init__.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/3d3f13c27cc4__cqe_root_src__server_compression.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/2276b17a5f8d__CQEPlus_auto_full_docs__4b4813cb3a__utils.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/e0d61243dca9__CQEPlus_auto_full_docs__da14b6c3c7__wheel.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/7b2b3cd8c720__CQEPlus_auto_full_docs__ead86b9449__req_file.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/3d0e92ca8703__CQEPlus_auto_full_docs__2017ded557__req_uninstall.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/dc766224145d__CQEPlus_auto_full_docs__ec99a589ff__resolver.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/e320aa951008__CQEPlus_auto_full_docs__5c2c5f3f60__unpacking.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/da34528d1238__CQEPlus_auto_full_docs__8fd34c203a__compat.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/987cbf2f1897__CQEPlus_auto_full_docs__d97733ca1c__database.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/a0178066916e__CQEPlus_auto_full_docs__1ec200d03f__locators.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/ce2977b20d84__CQEPlus_auto_full_docs__34de18b855__metadata.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/bcc3c6bec4b8__CQEPlus_auto_full_docs__0731d1d0f6__util.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/0c521582e110__CQEPlus_auto_full_docs__163e071e5e__wheel.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/3c47b0dc8b70__CQEPlus_auto_full_docs__51d8a679de__codec.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/e35b3ded6f59__CQEPlus_auto_full_docs__db3b338a5d__tags.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/8eb84345b3ae__CQEPlus_auto_full_docs__0927bc9808____init__.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/29940c9b2a3f__CQEPlus_auto_full_docs__e55ae3af48__formatter.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/fe406b389fcd__CQEPlus_auto_full_docs__f75d99efd1__lexer.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/bf18e7d5c387__CQEPlus_auto_full_docs__8a2255f7f8__python.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/c782b80a61fe__CQEPlus_auto_full_docs__7969987a1d__models.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/2fbf6f9c56f3__CQEPlus_auto_full_docs__657ec48650__utils.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/843261e0c872__CQEPlus_auto_full_docs__6d34d56ac4__pyopenssl.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/e5bfeaaa0447__CQEPlus_auto_full_docs__d51c1604a0__filepost.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/7e60c9005906__CQEPlus_auto_full_docs__6cc6719a47__response.py`
+  - Patterns matched: compress, decompress
+- `cqe_organized/CODE/python/403bae4f13d2__CQEPlus_auto_full_docs__c92d8aea36__ssl_.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/340faee6b313__CQEPlus_auto_full_docs__e946d417c7__ssltransport.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/86ed552fd9db__CQEPlus_auto_full_assets__989fd96f78___emoji_codes.py`
+  - Patterns matched: compress
+- `cqe_organized/CODE/python/9ff894a4fa47__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/4cf347012dec__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/16b34ac13eb1__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/5c456209e379__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/b55314d0803e__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/608ef6a2877e__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/b2cb08a1963a__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: codec
+- `cqe_organized/CODE/python/ed313cf9b781__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/00c2d640b2c4__cqe_modules__cqe_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/0263310f9a6e__io_matlab___miobase.py`
+  - Patterns matched: codec, compress
+- `aletheia_ai/corpus_modules/03edaeaf5e5a__scipy_sparse___csc.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/059982fe4b43__numba_np__arrayobj.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/0a1bae3c3aa8__scipy_signal___filter_design.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/0c521582e110__CQEPlus_auto_full_docs__163e071e5e__wheel.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/0e4a392ec28f__core_types__npytypes.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/1250a585c870___apsw_tools__shell.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/16b34ac13eb1__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/1ca1590c16b3__scipy_cluster__vq.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/1ce3750b2b23__io_matlab___mio.py`
+  - Patterns matched: codec, compress
+- `aletheia_ai/corpus_modules/20991076cc22__numba_cpython__unicode.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/221c92376cc9__scipy_sparse___coo.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/2276b17a5f8d__CQEPlus_auto_full_docs__4b4813cb3a__utils.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/2499f6044fe5__scipy_sparse___compressed.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/259347781135__magnitude-master_pymagnitude____init__.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/29940c9b2a3f__CQEPlus_auto_full_docs__e55ae3af48__formatter.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/2a8d758d9c95__special_utils__makenpz.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/2b1b0ff3298a__core_datamodel__models.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/2fbf6f9c56f3__CQEPlus_auto_full_docs__657ec48650__utils.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/340faee6b313__CQEPlus_auto_full_docs__e946d417c7__ssltransport.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/342bb6005de8__sparse_linalg___special_sparse_arrays.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/36207968ac20__numba_cpython__builtins.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/374f3aad0171__scipy_sparse___matrix_io.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/3b1ebd55bee8__modules_token_embedders__embedding.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/3b9239026482__sparse_linalg___matfuncs.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/3be41be74864__scipy_stats___stats_py.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/3c3dd54a0511__scipy_linalg__interpolative.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/3c47b0dc8b70__CQEPlus_auto_full_docs__51d8a679de__codec.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/3d0e92ca8703__CQEPlus_auto_full_docs__2017ded557__req_uninstall.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/3d3f13c27cc4__cqe_root_src__server_compression.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/403bae4f13d2__CQEPlus_auto_full_docs__c92d8aea36__ssl_.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/4b120db5de23__sparse_csgraph___validation.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/4ce1f4085534__numba_core__targetconfig.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/4cf347012dec__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/4f7f68ff0019__Build_v_1_0_cqe_operating_system_complete____init__.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/55b11d33f79d__tools_c_coverage__c_coverage_report.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/59a76bb2194b__cqe_modules__basic_usage_examples.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/5c456209e379__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/5e1bc018b2b2___core_code_generators__numpy_api.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/5eb9a193b215__cqe_core__cqe_complete_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/608ef6a2877e__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/61e0e32a29c0__scipy_stats___mstats_basic.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/63ea150d5dd9__cqe_modules__cqe_mandelbrot_fractal_integration.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/665f9de36678__allennlp_data__vocabulary.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/67c6d24859ca__cqe_modules__scalability_benchmarks.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/6b2a9bd6431a__cqe_modules__cqe_operating_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/6cba8b0d1602__numba_core__boxing.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/6e909db915a3__sparse_csgraph___laplacian.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/7516055d7697__scipy_sparse___construct.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/77f8552f2ad5__data_pass__fromnumeric.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/797b807b52fe__numpy_ma__core.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/79fcddaa16be__third_party__apsw__setup.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/7b2b3cd8c720__CQEPlus_auto_full_docs__ead86b9449__req_file.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/7c2d68bbcbba__scipy__lib___elementwise_iterative_method.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/7e60c9005906__CQEPlus_auto_full_docs__6cc6719a47__response.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/7fd04365474b__cqe_modules__script (9).py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/841bd5727014__io_matlab___mio5.py`
+  - Patterns matched: codec, compress
+- `aletheia_ai/corpus_modules/843261e0c872__CQEPlus_auto_full_docs__6d34d56ac4__pyopenssl.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/86ab0393f5d1__benchmarks_benchmarks__io_matlab.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/86ed552fd9db__CQEPlus_auto_full_assets__989fd96f78___emoji_codes.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/8eb84345b3ae__CQEPlus_auto_full_docs__0927bc9808____init__.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/9007938682ba__scipy_sparse___base.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/912e09eb2bb1__benchmarks_benchmarks__bench_ma.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/9304dfc1a5e7__scipy_sparse___csr.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/933aca93eb16__dataset_readers_dataset_utils__ontonotes.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/972122f940fa__scipy_sparse__compressed.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/987cbf2f1897__CQEPlus_auto_full_docs__d97733ca1c__database.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/9d677ceb3264__scipy_sparse___data.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/9f0011590425__numba_cpython__unicode_support.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/9ff894a4fa47__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/a0178066916e__CQEPlus_auto_full_docs__1ec200d03f__locators.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/a26b9d5bb945__magnitude-master_pymagnitude__converter.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/a37e8dac0dfe__third_party__pysqlite____init__.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/a4dffb4c021a__cqe_modules__cqe_ultimate_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/a60cd6896479__scipy_cluster____init__.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/a643d888fdac__scipy_datasets___fetchers.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/a64ec07bace0__numpy_lib___function_base_impl.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/a81d79ca39df__numba-scipy-main_numba_scipy__sparse.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/a8e649c53f9b__io__harwell_boeing__hb.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/a994122a1fa3__numpy__core__fromnumeric.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/afb7d25ade02__cqe_modules__script (8).py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/b01a20806a38__scipy_io__wavfile.py`
+  - Patterns matched: codec, compress
+- `aletheia_ai/corpus_modules/b01bdbffecbd__scipy_integrate___tanhsinh.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/b202f4208e84__scipy_io___idl.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/b2445c286ef4__io_matlab___mio5_params.py`
+  - Patterns matched: codec, compress
+- `aletheia_ai/corpus_modules/b2cb08a1963a__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/b55314d0803e__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/b84a6c080da7__cqe_modules__ultimate_unified_cqe_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/baad1fcfdb3a__cqe_modules__advanced_applications.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/bae38d3d22de__numba_np__numpy_support.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/bbba541a7032__third_party__pysqlite__setup.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/bc5308876c70__numpy_ma__extras.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/bcc3c6bec4b8__CQEPlus_auto_full_docs__0731d1d0f6__util.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/bdb02f5a3e97__numpy_f2py__crackfortran.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/be25b886305b__numpy-main_numpy____init__.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/bee6bcb52e45__numpy__core___add_newdocs.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/bf18e7d5c387__CQEPlus_auto_full_docs__8a2255f7f8__python.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/c00d855e0b2f__numpy__core__strings.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/c0514bfdb91e__data_pass__ndarray_misc.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/c32fa7e2f47f__benchmarks_benchmarks__stats.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/c69ae3cc0436__numba_cpython__charseq.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/c782b80a61fe__CQEPlus_auto_full_docs__7969987a1d__models.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/ce2977b20d84__CQEPlus_auto_full_docs__34de18b855__metadata.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/ce4f956e7e09__numpy_lib___datasource.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/ce7ac4778f09__sparse_csgraph____init__.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/d0b2f723eb4e__scipy_stats___mstats_extras.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/d0d596d34871__scipy_sparse___extract.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/d0eaee2fd7af__scipy_sparse___bsr.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/d3394c6dd555__cqe_modules__cqe_analyzer.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/d9403d23a7c4__cqe_modules__script (10).py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/da34528d1238__CQEPlus_auto_full_docs__8fd34c203a__compat.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/dc766224145d__CQEPlus_auto_full_docs__ec99a589ff__resolver.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/e0d61243dca9__CQEPlus_auto_full_docs__da14b6c3c7__wheel.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/e15abf8fd61d__cqe_modules__cqe_storage_manager.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/e320aa951008__CQEPlus_auto_full_docs__5c2c5f3f60__unpacking.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/e35b3ded6f59__CQEPlus_auto_full_docs__db3b338a5d__tags.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/e5bfeaaa0447__CQEPlus_auto_full_docs__d51c1604a0__filepost.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/e7a84465394d__scipy_differentiate___differentiate.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/ed313cf9b781__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/eec62a0f12dc__scipy_sparse____init__.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/ef9468f3a61e__lattpy-master_lattpy__data.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/f3cdef55f1f3__cuda_np__numpy_support.py`
+  - Patterns matched: codec
+- `aletheia_ai/corpus_modules/f3d1ef5bf6cf__numpy_lib___npyio_impl.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/f4eadd9a5c6f__scipy_stats___distribution_infrastructure.py`
+  - Patterns matched: compress, decompress
+- `aletheia_ai/corpus_modules/fdaf6e8d1284__cqe_modules__cqe_interface_manager.py`
+  - Patterns matched: compress
+- `aletheia_ai/corpus_modules/fe406b389fcd__CQEPlus_auto_full_docs__f75d99efd1__lexer.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/00c2d640b2c4__cqe_modules__cqe_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/16b34ac13eb1__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: codec
+- `aletheia_ai/cqe_native/3d3f13c27cc4__cqe_root_src__server_compression.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/4cf347012dec__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: codec
+- `aletheia_ai/cqe_native/4f7f68ff0019__Build_v_1_0_cqe_operating_system_complete____init__.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/59a76bb2194b__cqe_modules__basic_usage_examples.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/5c456209e379__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/cqe_native/5eb9a193b215__cqe_core__cqe_complete_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/608ef6a2877e__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/cqe_native/63ea150d5dd9__cqe_modules__cqe_mandelbrot_fractal_integration.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/67c6d24859ca__cqe_modules__scalability_benchmarks.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/6b2a9bd6431a__cqe_modules__cqe_operating_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/7fd04365474b__cqe_modules__script (9).py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/9ff894a4fa47__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/cqe_native/a4dffb4c021a__cqe_modules__cqe_ultimate_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/afb7d25ade02__cqe_modules__script (8).py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/b2cb08a1963a__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: codec
+- `aletheia_ai/cqe_native/b55314d0803e__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/cqe_native/b84a6c080da7__cqe_modules__ultimate_unified_cqe_system.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/baad1fcfdb3a__cqe_modules__advanced_applications.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/d3394c6dd555__cqe_modules__cqe_analyzer.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/d9403d23a7c4__cqe_modules__script (10).py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/e15abf8fd61d__cqe_modules__cqe_storage_manager.py`
+  - Patterns matched: compress
+- `aletheia_ai/cqe_native/ed313cf9b781__src_cqe_core__spine.py`
+  - Patterns matched: codec
+- `aletheia_ai/cqe_native/fdaf6e8d1284__cqe_modules__cqe_interface_manager.py`
+  - Patterns matched: compress
+- `scene8_standalone/src/scene8_complete.py`
+  - Patterns matched: codec, compress
+
+### Credit Escrow
+
+**Files found:** 25
+
+- `cqe_organized/CODE/python/56f232645b80__cqe_core__cqe_harness_v1.py`
+  - Patterns matched: escrow
+- `cqe_organized/CODE/python/9051c9818113__cqe_core__cqe_harness_v2.py`
+  - Patterns matched: escrow
+- `cqe_organized/CODE/python/08b2a325b46d__cqe_modules__convergence_and_repair_proofs.py`
+  - Patterns matched: escrow
+- `cqe_organized/CODE/python/a4412c172b92__QuadraticLawHarness_harness__udms.py`
+  - Patterns matched: escrow
+- `cqe_organized/CODE/python/b45a7deb98c1__QuadraticLawHarness_harness__run_all.py`
+  - Patterns matched: escrow
+- `cqe_organized/CODE/python/852a7169fb45__cqe_overlay-20251010T010041Z-1-001_cqe_overlay__morsr.py`
+  - Patterns matched: escrow
+- `cqe_organized/CODE/python/1c461ea9eec7__cqe_overlay-20251010T010041Z-1-001_cqe_overlay__operators.py`
+  - Patterns matched: escrow
+- `aletheia_ai/corpus_modules/08b2a325b46d__cqe_modules__convergence_and_repair_proofs.py`
+  - Patterns matched: escrow
+- `aletheia_ai/corpus_modules/1c461ea9eec7__cqe_overlay-20251010T010041Z-1-001_cqe_overlay__operators.py`
+  - Patterns matched: escrow
+- `aletheia_ai/corpus_modules/56f232645b80__cqe_core__cqe_harness_v1.py`
+  - Patterns matched: escrow
+- `aletheia_ai/corpus_modules/852a7169fb45__cqe_overlay-20251010T010041Z-1-001_cqe_overlay__morsr.py`
+  - Patterns matched: escrow
+- `aletheia_ai/corpus_modules/9051c9818113__cqe_core__cqe_harness_v2.py`
+  - Patterns matched: escrow
+- `aletheia_ai/corpus_modules/a4412c172b92__QuadraticLawHarness_harness__udms.py`
+  - Patterns matched: escrow
+- `aletheia_ai/corpus_modules/b45a7deb98c1__QuadraticLawHarness_harness__run_all.py`
+  - Patterns matched: escrow
+- `aletheia_ai/cqe_native/08b2a325b46d__cqe_modules__convergence_and_repair_proofs.py`
+  - Patterns matched: escrow
+- `aletheia_ai/cqe_native/1c461ea9eec7__cqe_overlay-20251010T010041Z-1-001_cqe_overlay__operators.py`
+  - Patterns matched: escrow
+- `aletheia_ai/cqe_native/56f232645b80__cqe_core__cqe_harness_v1.py`
+  - Patterns matched: escrow
+- `aletheia_ai/cqe_native/852a7169fb45__cqe_overlay-20251010T010041Z-1-001_cqe_overlay__morsr.py`
+  - Patterns matched: escrow
+- `aletheia_ai/cqe_native/9051c9818113__cqe_core__cqe_harness_v2.py`
+  - Patterns matched: escrow
+- `aletheia_ai/cqe_native/a4412c172b92__QuadraticLawHarness_harness__udms.py`
+  - Patterns matched: escrow
+- `aletheia_ai/cqe_native/b45a7deb98c1__QuadraticLawHarness_harness__run_all.py`
+  - Patterns matched: escrow
+- `aletheia_ai/top_priorities/convergence/08b2a325b46d__cqe_modules__convergence_and_repair_proofs.py`
+  - Patterns matched: escrow
+- `aletheia_ai/top_priorities/run_all/b45a7deb98c1__QuadraticLawHarness_harness__run_all.py`
+  - Patterns matched: escrow
+- `aletheia_ai/modules/convergence/08b2a325b46d__cqe_modules__convergence_and_repair_proofs.py`
+  - Patterns matched: escrow
+- `aletheia_ai/modules/runners/b45a7deb98c1__QuadraticLawHarness_harness__run_all.py`
+  - Patterns matched: escrow
+
+### E8 Genetic Algorithm
+
+**Files found:** 15
+
+- `cqe_organized/CODE/python/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: evolutionary.*e8
+- `cqe_organized/CODE/python/951cacfcd96b__cqe_modules__script (22).py`
+  - Patterns matched: evolutionary.*e8
+- `cqe_organized/CODE/python/d6a592eca936__scipy_optimize___differentialevolution.py`
+  - Patterns matched: genetic.*algorithm
+- `cqe_organized/CODE/python/53504fd6ae2d__02_master_full_CQE_master_full_20251016T200315__script (3).py`
+  - Patterns matched: e8.*evolution
+- `cqe_organized/CODE/python/f08687c6c710__02_master_full_CQE_master_full_20251016T200315__script (1).py`
+  - Patterns matched: e8.*evolution
+- `cqe_organized/CODE/python/8058594128d6__src_cqe_10_tools__script_5.py`
+  - Patterns matched: evolutionary.*e8
+- `aletheia_ai/corpus_modules/53504fd6ae2d__02_master_full_CQE_master_full_20251016T200315__script (3).py`
+  - Patterns matched: e8.*evolution
+- `aletheia_ai/corpus_modules/8058594128d6__src_cqe_10_tools__script_5.py`
+  - Patterns matched: evolutionary.*e8
+- `aletheia_ai/corpus_modules/951cacfcd96b__cqe_modules__script (22).py`
+  - Patterns matched: evolutionary.*e8
+- `aletheia_ai/corpus_modules/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: evolutionary.*e8
+- `aletheia_ai/corpus_modules/d6a592eca936__scipy_optimize___differentialevolution.py`
+  - Patterns matched: genetic.*algorithm
+- `aletheia_ai/corpus_modules/f08687c6c710__02_master_full_CQE_master_full_20251016T200315__script (1).py`
+  - Patterns matched: e8.*evolution
+- `aletheia_ai/cqe_native/8058594128d6__src_cqe_10_tools__script_5.py`
+  - Patterns matched: evolutionary.*e8
+- `aletheia_ai/cqe_native/951cacfcd96b__cqe_modules__script (22).py`
+  - Patterns matched: evolutionary.*e8
+- `aletheia_ai/cqe_native/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: evolutionary.*e8
+
+### Geometric Database
+
+**Files found:** 2
+
+- `cqe_organized/CODE/python/ef9468f3a61e__lattpy-master_lattpy__data.py`
+  - Patterns matched: geometric.*store
+- `aletheia_ai/corpus_modules/ef9468f3a61e__lattpy-master_lattpy__data.py`
+  - Patterns matched: geometric.*store
+
+### Geometric Hashing
+
+**Files found:** 27
+
+- `cqe_organized/CODE/python/e15abf8fd61d__cqe_modules__cqe_storage_manager.py`
+  - Patterns matched: e8.*hash, spatial.*hash
+- `cqe_organized/CODE/python/00c2d640b2c4__cqe_modules__cqe_system.py`
+  - Patterns matched: e8.*hash
+- `cqe_organized/CODE/python/b84a6c080da7__cqe_modules__ultimate_unified_cqe_system.py`
+  - Patterns matched: e8.*hash
+- `cqe_organized/CODE/python/25fd2ebc6bf7__numba_cpython__hashing.py`
+  - Patterns matched: e8.*hash
+- `cqe_organized/CODE/python/2e902bd0b813__lattpy-master_lattpy__lattice.py`
+  - Patterns matched: lattice.*hash
+- `cqe_organized/CODE/python/ff8cda0e450f__lattpy-master_lattpy__structure.py`
+  - Patterns matched: lattice.*hash
+- `cqe_organized/CODE/python/23bfc5d2d1da__src_cqe_10_tools__script_6.py`
+  - Patterns matched: e8.*hash
+- `cqe_organized/CODE/python/2b7b4001d727__src_cqe_10_tools__cqe_usage_examples.py`
+  - Patterns matched: e8.*hash
+- `cqe_organized/CODE/python/92729d83b002__src_cqe_10_tools__cqe-core-engine.py`
+  - Patterns matched: geometric.*hash
+- `cqe_organized/CODE/python/51b23da25a94__src_cqe_10_tools__cqe-testing-framework.py`
+  - Patterns matched: geometric.*hash
+- `aletheia_ai/corpus_modules/00c2d640b2c4__cqe_modules__cqe_system.py`
+  - Patterns matched: e8.*hash
+- `aletheia_ai/corpus_modules/23bfc5d2d1da__src_cqe_10_tools__script_6.py`
+  - Patterns matched: e8.*hash
+- `aletheia_ai/corpus_modules/25fd2ebc6bf7__numba_cpython__hashing.py`
+  - Patterns matched: e8.*hash
+- `aletheia_ai/corpus_modules/2b7b4001d727__src_cqe_10_tools__cqe_usage_examples.py`
+  - Patterns matched: e8.*hash
+- `aletheia_ai/corpus_modules/2e902bd0b813__lattpy-master_lattpy__lattice.py`
+  - Patterns matched: lattice.*hash
+- `aletheia_ai/corpus_modules/51b23da25a94__src_cqe_10_tools__cqe-testing-framework.py`
+  - Patterns matched: geometric.*hash
+- `aletheia_ai/corpus_modules/92729d83b002__src_cqe_10_tools__cqe-core-engine.py`
+  - Patterns matched: geometric.*hash
+- `aletheia_ai/corpus_modules/b84a6c080da7__cqe_modules__ultimate_unified_cqe_system.py`
+  - Patterns matched: e8.*hash
+- `aletheia_ai/corpus_modules/e15abf8fd61d__cqe_modules__cqe_storage_manager.py`
+  - Patterns matched: e8.*hash, spatial.*hash
+- `aletheia_ai/corpus_modules/ff8cda0e450f__lattpy-master_lattpy__structure.py`
+  - Patterns matched: lattice.*hash
+- `aletheia_ai/cqe_native/00c2d640b2c4__cqe_modules__cqe_system.py`
+  - Patterns matched: e8.*hash
+- `aletheia_ai/cqe_native/23bfc5d2d1da__src_cqe_10_tools__script_6.py`
+  - Patterns matched: e8.*hash
+- `aletheia_ai/cqe_native/2b7b4001d727__src_cqe_10_tools__cqe_usage_examples.py`
+  - Patterns matched: e8.*hash
+- `aletheia_ai/cqe_native/51b23da25a94__src_cqe_10_tools__cqe-testing-framework.py`
+  - Patterns matched: geometric.*hash
+- `aletheia_ai/cqe_native/92729d83b002__src_cqe_10_tools__cqe-core-engine.py`
+  - Patterns matched: geometric.*hash
+- `aletheia_ai/cqe_native/b84a6c080da7__cqe_modules__ultimate_unified_cqe_system.py`
+  - Patterns matched: e8.*hash
+- `aletheia_ai/cqe_native/e15abf8fd61d__cqe_modules__cqe_storage_manager.py`
+  - Patterns matched: e8.*hash, spatial.*hash
+
+### Geometric Prime Generation
+
+**Files found:** 148
+
+- `cqe_organized/CODE/python/56f232645b80__cqe_core__cqe_harness_v1.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/9051c9818113__cqe_core__cqe_harness_v2.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/ce51b6dc83da__cqe_core__chamber_board.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/c3174e63be9d__cqe_modules__cqe_runner_complete.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/5dc3ffd6d354__cqe_modules__mathematical_proof_carlson_e8.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/1b33b49ccee8__cqe_modules__script (12).py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/372eea6315da__cqe_modules__script (14).py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/4029f4606bfb__cqe_modules__script (37).py`
+  - Patterns matched: prime, geometric.*prime
+- `cqe_organized/CODE/python/eb426309cddc__cqe_modules__script (50).py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/3f25eb1cdcd6__core_typing__cffi_utils.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/25fd2ebc6bf7__numba_cpython__hashing.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/ac5f08717dee__doc_neps__nep-0016-benchmark.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/29effff9e09f__benchmarks_benchmarks__fft_basic.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/d9cfcfd52966__benchmarks_benchmarks__optimize_zeros.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/bcd950abd5f1__benchmarks_benchmarks__signal.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/255b263d7d6d__scipy_fft___helper.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/4a4fe07ecc26__scipy_fftpack___basic.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/f2be87876140__scipy_fftpack___helper.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/59afffb3607b__scipy_integrate___bvp.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/4d586a65c58a__scipy_integrate___odepack_py.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/ed9cde3ea145__scipy_optimize____init__.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/d6a592eca936__scipy_optimize___differentialevolution.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/b24ae44c2d63__scipy_optimize___lbfgsb_py.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/b19e39cf42b7__scipy_optimize___linesearch.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/cc3cb698d859__scipy_optimize___minpack_py.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/2d0e435b0c6c__scipy_optimize___optimize.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/5d2c232805d5__scipy_optimize___root_scalar.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/e4c7c6ec6f81__scipy_optimize___slsqp_py.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/86d421b29817__scipy_optimize___tnc.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/04169386964d__scipy_optimize___tstutils.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/e8d37fbc90fe__scipy_optimize___zeros_py.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/4a2bc7d3a658__scipy_optimize__optimize.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/87f56c7cf40c__optimize__lsq__common.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/b793f591108c__scipy_signal___czt.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/0a1bae3c3aa8__scipy_signal___filter_design.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/55a2f28bac50__scipy_signal___signaltools.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/d93c398305c7__signal_windows___windows.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/65b0df11c8d4__scipy_special___add_newdocs.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/f5b3ac43be09__scipy_special___orthogonal.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/aee6cff4eb61__special_utils__convert.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/5f3362222304__scipy_stats____init__.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/96a382cf90d5__scipy_stats___continuous_distns.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/79d91814109a__scipy_stats___distn_infrastructure.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/6c3d9276ad1e__scipy_stats___distr_params.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/f4eadd9a5c6f__scipy_stats___distribution_infrastructure.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/cf0211a79872__scipy_stats___qmc.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/20f86f424452__scipy_stats___qmvnt.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/8d5746b6c1f2__scipy_stats___sampling.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/991728f0e71a__scipy_stats___sensitivity_analysis.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/6fa80b91cfc5__scipy_stats__qmc.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/3af14298ca88__tests_data___mvt.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/1e6ee0b91a7f__tests_test_generation__reference_distributions.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/c0749a5fb708__elysia_api__app.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/8cae39e8c32b__02_master_full_CQE_master_full_20251016T200315__script (2).py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/f08687c6c710__02_master_full_CQE_master_full_20251016T200315__script (1).py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/338ab37be8ae__CQEPlus_auto_full_docs__fb6daa5636__agrmmdhg.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/4e8ba7767824__CQEPlus_auto_full_docs__d3e28f82a6__delta.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/beaa1d8b489a__cqe_unified_cqe_unified__chamber_board.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/641cc723a342__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/203e1e9841d6__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/68ee06635de0__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/4291a5bc453b__src_cqe_10_tools__script_4.2.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/34ee0965c92e__src_cqe_10_tools__script_5.2.py`
+  - Patterns matched: prime
+- `cqe_organized/CODE/python/2a520a6bb7ac__08_exports_exported-assets_6___script_1.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/04169386964d__scipy_optimize___tstutils.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/0a1bae3c3aa8__scipy_signal___filter_design.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/1b33b49ccee8__cqe_modules__script (12).py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/1e6ee0b91a7f__tests_test_generation__reference_distributions.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/203e1e9841d6__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/20f86f424452__scipy_stats___qmvnt.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/255b263d7d6d__scipy_fft___helper.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/25fd2ebc6bf7__numba_cpython__hashing.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/29effff9e09f__benchmarks_benchmarks__fft_basic.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/2a520a6bb7ac__08_exports_exported-assets_6___script_1.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/2d0e435b0c6c__scipy_optimize___optimize.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/338ab37be8ae__CQEPlus_auto_full_docs__fb6daa5636__agrmmdhg.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/34ee0965c92e__src_cqe_10_tools__script_5.2.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/372eea6315da__cqe_modules__script (14).py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/3af14298ca88__tests_data___mvt.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/3f25eb1cdcd6__core_typing__cffi_utils.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/4029f4606bfb__cqe_modules__script (37).py`
+  - Patterns matched: prime, geometric.*prime
+- `aletheia_ai/corpus_modules/4291a5bc453b__src_cqe_10_tools__script_4.2.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/4a2bc7d3a658__scipy_optimize__optimize.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/4a4fe07ecc26__scipy_fftpack___basic.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/4d586a65c58a__scipy_integrate___odepack_py.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/4e8ba7767824__CQEPlus_auto_full_docs__d3e28f82a6__delta.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/55a2f28bac50__scipy_signal___signaltools.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/56f232645b80__cqe_core__cqe_harness_v1.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/59afffb3607b__scipy_integrate___bvp.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/5d2c232805d5__scipy_optimize___root_scalar.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/5dc3ffd6d354__cqe_modules__mathematical_proof_carlson_e8.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/5f3362222304__scipy_stats____init__.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/641cc723a342__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/65b0df11c8d4__scipy_special___add_newdocs.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/68ee06635de0__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/6c3d9276ad1e__scipy_stats___distr_params.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/6fa80b91cfc5__scipy_stats__qmc.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/79d91814109a__scipy_stats___distn_infrastructure.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/86d421b29817__scipy_optimize___tnc.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/87f56c7cf40c__optimize__lsq__common.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/8cae39e8c32b__02_master_full_CQE_master_full_20251016T200315__script (2).py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/8d5746b6c1f2__scipy_stats___sampling.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/9051c9818113__cqe_core__cqe_harness_v2.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/96a382cf90d5__scipy_stats___continuous_distns.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/991728f0e71a__scipy_stats___sensitivity_analysis.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/ac5f08717dee__doc_neps__nep-0016-benchmark.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/aee6cff4eb61__special_utils__convert.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/b19e39cf42b7__scipy_optimize___linesearch.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/b24ae44c2d63__scipy_optimize___lbfgsb_py.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/b793f591108c__scipy_signal___czt.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/bcd950abd5f1__benchmarks_benchmarks__signal.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/beaa1d8b489a__cqe_unified_cqe_unified__chamber_board.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/c0749a5fb708__elysia_api__app.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/c3174e63be9d__cqe_modules__cqe_runner_complete.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/cc3cb698d859__scipy_optimize___minpack_py.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/ce51b6dc83da__cqe_core__chamber_board.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/cf0211a79872__scipy_stats___qmc.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/d6a592eca936__scipy_optimize___differentialevolution.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/d93c398305c7__signal_windows___windows.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/d9cfcfd52966__benchmarks_benchmarks__optimize_zeros.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/e4c7c6ec6f81__scipy_optimize___slsqp_py.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/e8d37fbc90fe__scipy_optimize___zeros_py.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/eb426309cddc__cqe_modules__script (50).py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/ed9cde3ea145__scipy_optimize____init__.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/f08687c6c710__02_master_full_CQE_master_full_20251016T200315__script (1).py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/f2be87876140__scipy_fftpack___helper.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/f4eadd9a5c6f__scipy_stats___distribution_infrastructure.py`
+  - Patterns matched: prime
+- `aletheia_ai/corpus_modules/f5b3ac43be09__scipy_special___orthogonal.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/1b33b49ccee8__cqe_modules__script (12).py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/203e1e9841d6__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/338ab37be8ae__CQEPlus_auto_full_docs__fb6daa5636__agrmmdhg.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/34ee0965c92e__src_cqe_10_tools__script_5.2.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/372eea6315da__cqe_modules__script (14).py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/4029f4606bfb__cqe_modules__script (37).py`
+  - Patterns matched: prime, geometric.*prime
+- `aletheia_ai/cqe_native/4291a5bc453b__src_cqe_10_tools__script_4.2.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/56f232645b80__cqe_core__cqe_harness_v1.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/5dc3ffd6d354__cqe_modules__mathematical_proof_carlson_e8.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/641cc723a342__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/68ee06635de0__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/9051c9818113__cqe_core__cqe_harness_v2.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/beaa1d8b489a__cqe_unified_cqe_unified__chamber_board.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/c3174e63be9d__cqe_modules__cqe_runner_complete.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/ce51b6dc83da__cqe_core__chamber_board.py`
+  - Patterns matched: prime
+- `aletheia_ai/cqe_native/eb426309cddc__cqe_modules__script (50).py`
+  - Patterns matched: prime
+- `scene8_standalone/src/scene8_complete.py`
+  - Patterns matched: prime
+
+### Ghost-Run Simulation
+
+**Files found:** 59
+
+- `cqe_organized/CODE/python/e12b4fbfd60a__cqe_modules__script (58).py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/08cf0e370ad6__numba_core__compiler_lock.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/1d05534d48f9__numba_core__controlflow.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/5de4489eed29__numba_core__object_mode_passes.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/2370653f4cd6__numba_core__typed_passes.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/7bd63b4505a1__numba_cuda__api.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/147d8e5fb24b__numpy_linalg___linalg.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/7ad28c643430__numba_cuda__api.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/7aa535b351b8__cuda_core__typed_passes.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/a54aaf50006c__allennlp_predictors__wikitables_parser.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/3a7fadd54320__semparse_worlds__nlvr_world.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `cqe_organized/CODE/python/7d3278d4147b__harness-20251010T010045Z-1-001_harness__validateproof.py`
+  - Patterns matched: overlay.*run
+- `cqe_organized/CODE/python/5fab03be4146__CQEPlus_auto_full_docs__970861f417__markers.py`
+  - Patterns matched: pre.*execution
+- `cqe_organized/CODE/python/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `cqe_organized/CODE/python/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `cqe_organized/CODE/python/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `cqe_organized/CODE/python/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `cqe_organized/CODE/python/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/corpus_modules/08cf0e370ad6__numba_core__compiler_lock.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/147d8e5fb24b__numpy_linalg___linalg.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/1d05534d48f9__numba_core__controlflow.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/2370653f4cd6__numba_core__typed_passes.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/corpus_modules/3a7fadd54320__semparse_worlds__nlvr_world.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/corpus_modules/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/corpus_modules/5de4489eed29__numba_core__object_mode_passes.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/5fab03be4146__CQEPlus_auto_full_docs__970861f417__markers.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/7aa535b351b8__cuda_core__typed_passes.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/7ad28c643430__numba_cuda__api.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/7bd63b4505a1__numba_cuda__api.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/7d3278d4147b__harness-20251010T010045Z-1-001_harness__validateproof.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/corpus_modules/a54aaf50006c__allennlp_predictors__wikitables_parser.py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/corpus_modules/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/corpus_modules/e12b4fbfd60a__cqe_modules__script (58).py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/corpus_modules/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/cqe_native/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/cqe_native/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/cqe_native/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/cqe_native/7d3278d4147b__harness-20251010T010045Z-1-001_harness__validateproof.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/cqe_native/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/cqe_native/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/cqe_native/e12b4fbfd60a__cqe_modules__script (58).py`
+  - Patterns matched: pre.*execution
+- `aletheia_ai/cqe_native/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/top_priorities/slice_impls/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/top_priorities/slice_impls/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/top_priorities/slice_impls/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/top_priorities/slice_impls/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/top_priorities/slice_impls/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/top_priorities/slice_impls/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/modules/slices/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/modules/slices/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/modules/slices/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/modules/slices/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/modules/slices/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `aletheia_ai/modules/slices/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: overlay.*run
+- `scene8_standalone/src/scene8_complete.py`
+  - Patterns matched: ghost.*run
+
+### Glyph/Codeword Ledger
+
+**Files found:** 205
+
+- `cqe_organized/CODE/python/5eb9a193b215__cqe_core__cqe_complete_system.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/56f232645b80__cqe_core__cqe_harness_v1.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/9051c9818113__cqe_core__cqe_harness_v2.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/361d6271cc68__cqe_core__parity_channels.py`
+  - Patterns matched: codeword
+- `cqe_organized/CODE/python/6464e95b7018__cqe_modules__complete_system.py`
+  - Patterns matched: glyph, ledger
+- `cqe_organized/CODE/python/9d58dcdc17fe__cqe_modules__cqe_language_engine.py`
+  - Patterns matched: symbol.*system
+- `cqe_organized/CODE/python/c0b34f329cb3__cqe_modules__script (47).py`
+  - Patterns matched: codeword
+- `cqe_organized/CODE/python/f0c35828ace7__cqe_experimental__cqe_harness.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/2dccdc708e35__cqe_experimental__o8.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/1aa665dfc70a__CQEPlus_auto_full_docs__4c61c34d2f__STAGING_COMBINED.py`
+  - Patterns matched: glyph, ledger
+- `cqe_organized/CODE/python/3b1411c7b623__CQEPlus_auto_full_docs__9c57e483a9__leech.py`
+  - Patterns matched: codeword
+- `cqe_organized/CODE/python/39756191d1a8__CQEPlus_auto_full_docs__f25b7340f9__cli.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/1d24440c1232__CQEPlus_auto_full_docs__1d691b3008____init___ledger.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/33bc76b9a9c1__CQEPlus_auto_full_docs__c2d73ee992____init___ledger_1.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/30df1ff72dfb__cqe_core____init__.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/a009b5ced3c5__CQEPlus_auto_full_docs__81a06619ab___spdx.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/8f2c9864998b__CQEPlus_auto_full_configs__78dd02f90a__config_utils_1.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/8a65f8fe8474__src_worldforge__34c2cfa135__operators.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/9e56e92289b2__CQEPlus_auto_full_harness__2632473a98__bootstrap_cli_2.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/3557885e6da6__CQEPlus_auto_full_harness__ff4cfcb765__core.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/6c890dd2f524__CQEPlus_auto_full_harness__273c6dd37f__core_harness.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/837d03687eb3__CQEPlus_auto_full_harness__8d37ba38c0__core_harness_1.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/95d4959e61fd__CQEPlus_auto_full_harness__b49a4bd6d6__harness_cli.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/85ee7534d93b__CQEPlus_auto_full_harness__560b4193ed__harness_cli_cli_1.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/be3d9804708a__CQEPlus_auto_full_scripts__a2e78456e6__merge_receipts.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/8e57ee109a78__CQEPlus_auto_full_scripts__61e5338d56__script_1_utils_1.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/e1f68ce6be51__CQEPlus_auto_full_scripts__420a1b9c4b__script_2_utils_1.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/2075b863ad65__CQEPlus_auto_full_scripts__525c104e93__script_3_utils_1.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/73647190f243__CQEPlus_auto_full_scripts__f98f7850a0__script_exported-assets.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/8c0a166df451__CQEPlus_auto_full_scripts__35aa8c6567__script_utils_1.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/86ed552fd9db__CQEPlus_auto_full_assets__989fd96f78___emoji_codes.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/b72959d33966__cqe_core__ledger.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/420cdfb31d4f__cqe_core__morsr.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/9d29e4142c73__cqe_core__cqe.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/2708c8653709__cqe_unified_cqe_unified__glyphs_lambda.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/90f4e0fedbb5__cqe_unified_cqe_unified__slices.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/8dba10c7c303__cqe_unified_cqe_unified__ms4_runner.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/d96d484efcfc__cqe_unified_cqe_unified__glyphs_lambda.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/1aae784b1117__cqe_unified_workspace_bundle_cqe_unified_workspace__cqe_unified_launcher.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/73d550781ff5__src_cqe_core__governance.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/de567d95e597__src_cqe_core__dual_governance.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/25e575ba48c0__src_cqe_core__agrm_mdhg.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/6074512a14c2__src_cqe_core__dtt_orchestrator.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/641cc723a342__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/4b80a6c31916__src_scene8_gvs__layer_utils.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/56d281e012e7__src_cqe_core__agrm_mdhg.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/3aa4d0957ed6__src_cqe_10_tools__script.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/6dc3e75500d4__src_cqe_10_tools__cqe_main_system.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/e9ad9b08a661__src_cqe_10_tools__script_4.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/04770b69f402__src_cqe_10_tools__cqe_config.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/8058594128d6__src_cqe_10_tools__script_5.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/993d10250c84__src_cqe_10_tools__deploy_cqe_system.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/848002b7d48e__src_cqe_10_tools__script_2.3.py`
+  - Patterns matched: symbol.*system
+- `cqe_organized/CODE/python/542aa8679d12__src_cqe_10_tools__script_3.3.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/cdecb35dd9c6__src_cqe_10_tools__chart_script.3.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/4291a5bc453b__src_cqe_10_tools__script_4.2.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/34ee0965c92e__src_cqe_10_tools__script_5.2.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/5743038dd8c7__src_cqe_10_tools__script_1.4.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/9f0ddd102731__src_cqe_10_tools__cqe_batch_processor.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/7ef2736c6e70__e8_toolkit_v4_e8____init__.py`
+  - Patterns matched: codeword
+- `cqe_organized/CODE/python/882a27c3be5a__e8_toolkit_v4_e8__construct.py`
+  - Patterns matched: codeword
+- `cqe_organized/CODE/python/ed5ed3b86383__08_exports_exported-assets_7___script.py`
+  - Patterns matched: glyph
+- `cqe_organized/CODE/python/a0e0404f78ab__08_exports_exported-assets_6___script.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/8e3999d69f09__cqe_lattice__leech24.py`
+  - Patterns matched: codeword
+- `cqe_organized/CODE/python/cf96132c3964__src_cqe_worldforge__operators.py`
+  - Patterns matched: ledger
+- `cqe_organized/CODE/python/5c3a20f42972__src_cqe_worldforge__cli.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/04770b69f402__src_cqe_10_tools__cqe_config.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/1aa665dfc70a__CQEPlus_auto_full_docs__4c61c34d2f__STAGING_COMBINED.py`
+  - Patterns matched: glyph, ledger
+- `aletheia_ai/corpus_modules/1aae784b1117__cqe_unified_workspace_bundle_cqe_unified_workspace__cqe_unified_launcher.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/1d24440c1232__CQEPlus_auto_full_docs__1d691b3008____init___ledger.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/2075b863ad65__CQEPlus_auto_full_scripts__525c104e93__script_3_utils_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/25e575ba48c0__src_cqe_core__agrm_mdhg.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/2708c8653709__cqe_unified_cqe_unified__glyphs_lambda.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/2dccdc708e35__cqe_experimental__o8.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/30df1ff72dfb__cqe_core____init__.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/33bc76b9a9c1__CQEPlus_auto_full_docs__c2d73ee992____init___ledger_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/34ee0965c92e__src_cqe_10_tools__script_5.2.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/3557885e6da6__CQEPlus_auto_full_harness__ff4cfcb765__core.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/361d6271cc68__cqe_core__parity_channels.py`
+  - Patterns matched: codeword
+- `aletheia_ai/corpus_modules/39756191d1a8__CQEPlus_auto_full_docs__f25b7340f9__cli.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/3aa4d0957ed6__src_cqe_10_tools__script.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/3b1411c7b623__CQEPlus_auto_full_docs__9c57e483a9__leech.py`
+  - Patterns matched: codeword
+- `aletheia_ai/corpus_modules/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/420cdfb31d4f__cqe_core__morsr.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/4291a5bc453b__src_cqe_10_tools__script_4.2.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/4b80a6c31916__src_scene8_gvs__layer_utils.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/542aa8679d12__src_cqe_10_tools__script_3.3.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/56d281e012e7__src_cqe_core__agrm_mdhg.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/56f232645b80__cqe_core__cqe_harness_v1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/5743038dd8c7__src_cqe_10_tools__script_1.4.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/5c3a20f42972__src_cqe_worldforge__cli.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/5eb9a193b215__cqe_core__cqe_complete_system.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/6074512a14c2__src_cqe_core__dtt_orchestrator.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/641cc723a342__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/6464e95b7018__cqe_modules__complete_system.py`
+  - Patterns matched: glyph, ledger
+- `aletheia_ai/corpus_modules/6c890dd2f524__CQEPlus_auto_full_harness__273c6dd37f__core_harness.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/6dc3e75500d4__src_cqe_10_tools__cqe_main_system.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/73647190f243__CQEPlus_auto_full_scripts__f98f7850a0__script_exported-assets.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/73d550781ff5__src_cqe_core__governance.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/7ef2736c6e70__e8_toolkit_v4_e8____init__.py`
+  - Patterns matched: codeword
+- `aletheia_ai/corpus_modules/8058594128d6__src_cqe_10_tools__script_5.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/837d03687eb3__CQEPlus_auto_full_harness__8d37ba38c0__core_harness_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/848002b7d48e__src_cqe_10_tools__script_2.3.py`
+  - Patterns matched: symbol.*system
+- `aletheia_ai/corpus_modules/85ee7534d93b__CQEPlus_auto_full_harness__560b4193ed__harness_cli_cli_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/86ed552fd9db__CQEPlus_auto_full_assets__989fd96f78___emoji_codes.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/882a27c3be5a__e8_toolkit_v4_e8__construct.py`
+  - Patterns matched: codeword
+- `aletheia_ai/corpus_modules/8a65f8fe8474__src_worldforge__34c2cfa135__operators.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/8c0a166df451__CQEPlus_auto_full_scripts__35aa8c6567__script_utils_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/8dba10c7c303__cqe_unified_cqe_unified__ms4_runner.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/8e3999d69f09__cqe_lattice__leech24.py`
+  - Patterns matched: codeword
+- `aletheia_ai/corpus_modules/8e57ee109a78__CQEPlus_auto_full_scripts__61e5338d56__script_1_utils_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/8f2c9864998b__CQEPlus_auto_full_configs__78dd02f90a__config_utils_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/9051c9818113__cqe_core__cqe_harness_v2.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/90f4e0fedbb5__cqe_unified_cqe_unified__slices.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/95d4959e61fd__CQEPlus_auto_full_harness__b49a4bd6d6__harness_cli.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/993d10250c84__src_cqe_10_tools__deploy_cqe_system.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/9d29e4142c73__cqe_core__cqe.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/9d58dcdc17fe__cqe_modules__cqe_language_engine.py`
+  - Patterns matched: symbol.*system
+- `aletheia_ai/corpus_modules/9e56e92289b2__CQEPlus_auto_full_harness__2632473a98__bootstrap_cli_2.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/9f0ddd102731__src_cqe_10_tools__cqe_batch_processor.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/a009b5ced3c5__CQEPlus_auto_full_docs__81a06619ab___spdx.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/a0e0404f78ab__08_exports_exported-assets_6___script.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/b72959d33966__cqe_core__ledger.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/be3d9804708a__CQEPlus_auto_full_scripts__a2e78456e6__merge_receipts.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/c0b34f329cb3__cqe_modules__script (47).py`
+  - Patterns matched: codeword
+- `aletheia_ai/corpus_modules/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/cdecb35dd9c6__src_cqe_10_tools__chart_script.3.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/cf96132c3964__src_cqe_worldforge__operators.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/d96d484efcfc__cqe_unified_cqe_unified__glyphs_lambda.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/de567d95e597__src_cqe_core__dual_governance.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/e1f68ce6be51__CQEPlus_auto_full_scripts__420a1b9c4b__script_2_utils_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/e9ad9b08a661__src_cqe_10_tools__script_4.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/ed5ed3b86383__08_exports_exported-assets_7___script.py`
+  - Patterns matched: glyph
+- `aletheia_ai/corpus_modules/f0c35828ace7__cqe_experimental__cqe_harness.py`
+  - Patterns matched: ledger
+- `aletheia_ai/corpus_modules/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/04770b69f402__src_cqe_10_tools__cqe_config.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/1aae784b1117__cqe_unified_workspace_bundle_cqe_unified_workspace__cqe_unified_launcher.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/25e575ba48c0__src_cqe_core__agrm_mdhg.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/2708c8653709__cqe_unified_cqe_unified__glyphs_lambda.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/2dccdc708e35__cqe_experimental__o8.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/30df1ff72dfb__cqe_core____init__.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/34ee0965c92e__src_cqe_10_tools__script_5.2.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/3557885e6da6__CQEPlus_auto_full_harness__ff4cfcb765__core.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/361d6271cc68__cqe_core__parity_channels.py`
+  - Patterns matched: codeword
+- `aletheia_ai/cqe_native/3aa4d0957ed6__src_cqe_10_tools__script.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/420cdfb31d4f__cqe_core__morsr.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/4291a5bc453b__src_cqe_10_tools__script_4.2.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/4b80a6c31916__src_scene8_gvs__layer_utils.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/542aa8679d12__src_cqe_10_tools__script_3.3.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/56d281e012e7__src_cqe_core__agrm_mdhg.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/56f232645b80__cqe_core__cqe_harness_v1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/5743038dd8c7__src_cqe_10_tools__script_1.4.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/5c3a20f42972__src_cqe_worldforge__cli.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/5eb9a193b215__cqe_core__cqe_complete_system.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/6074512a14c2__src_cqe_core__dtt_orchestrator.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/641cc723a342__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/6464e95b7018__cqe_modules__complete_system.py`
+  - Patterns matched: glyph, ledger
+- `aletheia_ai/cqe_native/6c890dd2f524__CQEPlus_auto_full_harness__273c6dd37f__core_harness.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/6dc3e75500d4__src_cqe_10_tools__cqe_main_system.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/73d550781ff5__src_cqe_core__governance.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/8058594128d6__src_cqe_10_tools__script_5.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/837d03687eb3__CQEPlus_auto_full_harness__8d37ba38c0__core_harness_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/848002b7d48e__src_cqe_10_tools__script_2.3.py`
+  - Patterns matched: symbol.*system
+- `aletheia_ai/cqe_native/85ee7534d93b__CQEPlus_auto_full_harness__560b4193ed__harness_cli_cli_1.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/8a65f8fe8474__src_worldforge__34c2cfa135__operators.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/8dba10c7c303__cqe_unified_cqe_unified__ms4_runner.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/8e3999d69f09__cqe_lattice__leech24.py`
+  - Patterns matched: codeword
+- `aletheia_ai/cqe_native/9051c9818113__cqe_core__cqe_harness_v2.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/90f4e0fedbb5__cqe_unified_cqe_unified__slices.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/95d4959e61fd__CQEPlus_auto_full_harness__b49a4bd6d6__harness_cli.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/993d10250c84__src_cqe_10_tools__deploy_cqe_system.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/9d29e4142c73__cqe_core__cqe.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/9d58dcdc17fe__cqe_modules__cqe_language_engine.py`
+  - Patterns matched: symbol.*system
+- `aletheia_ai/cqe_native/9e56e92289b2__CQEPlus_auto_full_harness__2632473a98__bootstrap_cli_2.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/9f0ddd102731__src_cqe_10_tools__cqe_batch_processor.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/b72959d33966__cqe_core__ledger.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/c0b34f329cb3__cqe_modules__script (47).py`
+  - Patterns matched: codeword
+- `aletheia_ai/cqe_native/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/cdecb35dd9c6__src_cqe_10_tools__chart_script.3.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/cf96132c3964__src_cqe_worldforge__operators.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/d96d484efcfc__cqe_unified_cqe_unified__glyphs_lambda.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/cqe_native/de567d95e597__src_cqe_core__dual_governance.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/e9ad9b08a661__src_cqe_10_tools__script_4.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/f0c35828ace7__cqe_experimental__cqe_harness.py`
+  - Patterns matched: ledger
+- `aletheia_ai/cqe_native/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/top_priorities/slice_impls/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/top_priorities/slice_impls/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/top_priorities/slice_impls/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/top_priorities/slice_impls/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/top_priorities/slice_impls/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/modules/slices/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/modules/slices/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/modules/slices/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/modules/slices/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+- `aletheia_ai/modules/slices/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: glyph
+
+### Golden Spiral Sampling
+
+**Files found:** 8
+
+- `cqe_organized/CODE/python/9f1afe4a2247__src_engine__f301e10627__engine.py`
+  - Patterns matched: golden.*spiral, spiral.*sampling
+- `cqe_organized/CODE/python/db56af52e90b__CQEPlus_auto_full_harness__6a56057d9d__scene8.py`
+  - Patterns matched: golden.*spiral
+- `cqe_organized/CODE/python/0cc98c1e38c8__CQE_FORMALIZATION_harnesses__H09_Golden_Spiral_Sampling.py`
+  - Patterns matched: golden.*spiral, spiral.*sampling
+- `aletheia_ai/corpus_modules/0cc98c1e38c8__CQE_FORMALIZATION_harnesses__H09_Golden_Spiral_Sampling.py`
+  - Patterns matched: golden.*spiral, spiral.*sampling
+- `aletheia_ai/corpus_modules/9f1afe4a2247__src_engine__f301e10627__engine.py`
+  - Patterns matched: golden.*spiral, spiral.*sampling
+- `aletheia_ai/corpus_modules/db56af52e90b__CQEPlus_auto_full_harness__6a56057d9d__scene8.py`
+  - Patterns matched: golden.*spiral
+- `aletheia_ai/cqe_native/0cc98c1e38c8__CQE_FORMALIZATION_harnesses__H09_Golden_Spiral_Sampling.py`
+  - Patterns matched: golden.*spiral, spiral.*sampling
+- `aletheia_ai/cqe_native/db56af52e90b__CQEPlus_auto_full_harness__6a56057d9d__scene8.py`
+  - Patterns matched: golden.*spiral
+
+### Intent-as-Slice
+
+**Files found:** 544
+
+- `cqe_organized/CODE/python/3476107abee3__cqe-gvs_src__cqe_gvs.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/37fd0755422a__src_rendering__render_engine.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/73724858297f__src_worlds__world_forge.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f523bc2b9934__cqe_modules__e8_pathway_explorer.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/307d5fcb3dfb__cqe_modules__e8_millennium_exploration_harness.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d9403d23a7c4__cqe_modules__script (10).py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/951cacfcd96b__cqe_modules__script (22).py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/af51668ad109__cqe_modules__script (33).py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/015e0c11a702__numba_cloudpickle__cloudpickle.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/063ee28d71ca__numba_core__base.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5e403123a91a__numba_core__callconv.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a82f3aecdfaa__numba_core__compiler.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f94bae54f574__numba_core__compiler_machinery.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d555fd1211a2__numba_core__funcdesc.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/53b05895f2e0__numba_core__ir_utils.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/939cbf76aef6__numba_core__itanium_mangler.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/cbc053103e38__numba_core__pythonapi.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f622a0b43fb0__numba_core__serialize.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/2370653f4cd6__numba_core__typed_passes.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/9ef921b03291__numba_core__untyped_passes.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/38da612066ad__core_runtime__context.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/bf07d8939352__core_runtime__nrt.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/394b951bb0f3__core_runtime__nrtopt.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/b5efc18a62bc__core_types____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f4ffeba2364f__core_typing__asnumbatype.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/9b03ac37bc7a__core_typing__npydecl.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/70ef3c7633a1__numba_cpython__randomimpl.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/fdf3ebc02cac__numba_cuda__cuda_paths.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a2b40aeda9e1__numba_cuda__device_init.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/6bdb26b03c1b__numba_cuda__stubs.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/108e97b8a41e__numba_cuda__target.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/72b5b4550ffc__cuda_simulator____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/6580bf5d0aa7__cuda_simulator__kernelapi.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/8c0402dc9ad6__cuda_simulator__vector_types.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/4d3426ec1981__numba_misc__dump_style.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d0e09e385c14__numba_misc__numba_sysinfo.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f6d831f2d2ae__misc_help__inspector.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/9f6b32043edc__numba_np__arraymath.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/1f5f135ebaa4__np_random__random_methods.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/e24e8af9f0cc__numba_parfors__array_analysis.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/8f4bc564d52c__numba_parfors__parfor.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d119859b1979__numba_parfors__parfor_lowering.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/dd007a43995f__numpydoc-main_numpydoc__docscrape.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/61cc7ad0e314__numpydoc-main_numpydoc__docscrape_sphinx.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5a4b609bdd91__numpydoc-main_numpydoc__numpydoc.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/1842ec7d4e5c__numpydoc-main_numpydoc__xref.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5d15d0e1d553__doc_source__conf.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/be25b886305b__numpy-main_numpy____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/504d90e76aa4__numpy-main_numpy__conftest.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/cee3f0802d22__numpy-main_numpy__dtypes.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/bee6bcb52e45__numpy__core___add_newdocs.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/1132c0f992a0__numpy__core___add_newdocs_scalars.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/6145f6e1761b__numpy__core___machar.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/e929a0a22ea8__numpy__core___string_helpers.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/9ac147064676__numpy__core___type_aliases.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/950fca82a4bc__numpy__core__arrayprint.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f81b84c16a02__numpy__core__defchararray.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a994122a1fa3__numpy__core__fromnumeric.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/9321c8287dbb__numpy__core__getlimits.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/ae441958df77__numpy__core__numeric.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/98a3dbb0ecd7__numpy__core__numerictypes.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/fd40158fe835__numpy__core__records.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f1770ba92f43___core_code_generators__generate_umath.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/87238ca5dbc1___core_code_generators__ufunc_docstrings.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d316b15150e3__numpy__typing____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/ff783b0fee87__numpy__typing___add_docstring.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/10f6547c94a3__numpy__typing___array_like.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/8fc9e40965cb__numpy__typing___dtype_like.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/2926cac0e2ad__numpy__typing___nbit.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/2e15d8d814c7__numpy__typing___scalars.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/e9c16ff8b6d2__numpy__typing___shape.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f3e67d899111__numpy_distutils__system_info.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/0ea7da88a195__distutils_fcompiler____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/71fc1e45045d__distutils_fcompiler__gnu.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5d817418b561__distutils_fcompiler__intel.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5eec5ae2c36b__distutils_fcompiler__vast.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/3961349ba1ff__numpy_fft____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/09fa40a51f51__numpy_fft___pocketfft.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/cd81aea847cf__numpy_lib____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a64ec07bace0__numpy_lib___function_base_impl.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a09eec1f8be5__numpy_lib___nanfunctions_impl.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/81b9541d4888__numpy_lib___polynomial_impl.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/b32cc3542ee8__numpy_lib___shape_base_impl.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/147d8e5fb24b__numpy_linalg___linalg.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/797b807b52fe__numpy_ma__core.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/bc5308876c70__numpy_ma__extras.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d34833cf2ff1__numpy_ma__mrecords.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/585ce7b73b54__numpy_random____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/6a5f5f2b7662__testing__private__utils.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/8a09582c4883__numpy_typing____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d6971f2f125a__numpy_typing__mypy_plugin.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/632f62036b20__data_pass__ma.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/53ba8b32b422__data_pass__scalars.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/0accfff84388__numpy-main_tools__refguide_check.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/c32fa7e2f47f__benchmarks_benchmarks__stats.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/b2a07abb8c9c__benchmarks_benchmarks__stats_sampling.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/cf5160d9dd50__scipy__lib___array_api.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/dbc48bbdfbfa__scipy__lib___array_api_docs_tables.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f558eb573948__scipy__lib___array_api_override.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/266d903cf22a__scipy__lib___docscrape.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/4ab73a6023b9__scipy__lib___util.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/cdfded11e296__scipy_cluster__hierarchy.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/005317bcd5e1__scipy_constants___codata.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5b95afe3f250__scipy_fft___basic.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/25e2d508081f__scipy_fft___fftlog.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/520a1e3f0868__scipy_fft___fftlog_backend.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/0e8b42f21891__scipy_integrate___cubature.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/745263b77e0b__scipy_integrate___ode.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/1796f5ef9e5a__scipy_integrate___quadrature.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/48a20d3a781f__integrate__ivp__bdf.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/bb065415ed3a__integrate__ivp__rk.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/b235a67d9f41__scipy_interpolate___bary_rational.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/1bad6ab4c9d7__scipy_interpolate___bsplines.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/92d2297f2613__scipy_interpolate___interpolate.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/cd0d9f706e49__scipy_interpolate___ndbspline.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/0c90bd7162a9__scipy_interpolate___polyint.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/faced0686a3e__scipy_interpolate___rbfinterp.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d52b0024b4a0__scipy_interpolate___rgi.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/b01a20806a38__scipy_io__wavfile.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/0143237dd200__io_matlab___byteordercodes.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/86717c9ced34__scipy_linalg__blas.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/4110258cf7bb__scipy_linalg__lapack.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/30275bc8a948__scipy_ndimage___measurements.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/45664d614ded__scipy_optimize___bracket.py`
+  - Patterns matched: problem.*finding
+- `cqe_organized/CODE/python/6b46ff7a19b3__scipy_optimize___constraints.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/fad131e75ffd__scipy_optimize___direct_py.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/c7f0cd9ca8e4__scipy_optimize___nonlin.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/aa10347e69a4__optimize__trustregion_constr__minimize_trustregion_constr.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/0a1bae3c3aa8__scipy_signal___filter_design.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d4a21ed98dcd__scipy_signal___short_time_fft.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/55a2f28bac50__scipy_signal___signaltools.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f77c6e613f23__scipy_signal___spectral_py.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d067a66e8e87__scipy_signal___waveforms.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/9007938682ba__scipy_sparse___base.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/7b9ed3c4bfb8__scipy_sparse___matrix.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/ee8d1636808b__sparse_linalg___interface.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/754af9bf9ddc__sparse_linalg___svdp.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/81d12b5d0f80__scipy_spatial___kdtree.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/73150b94c0b8__scipy_spatial__distance.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a3d3cdf5892f__scipy_special___generate_pyx.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f5b3ac43be09__scipy_special___orthogonal.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/2c023949b787__scipy_special___support_alternative_backends.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5f3362222304__scipy_stats____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5a537537c22f__scipy_stats___binomtest.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/379b247c36dc__scipy_stats___covariance.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/eadfa768e076__scipy_stats___discrete_distns.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/79d91814109a__scipy_stats___distn_infrastructure.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f4eadd9a5c6f__scipy_stats___distribution_infrastructure.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/24035074fe9c__scipy_stats___entropy.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/db7f18c80957__scipy_stats___fit.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/1b3c3f69c4e4__scipy_stats___hypotests.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/78b8794cff14__scipy_stats___kde.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/0a30b1361f4f__scipy_stats___mgc.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/374d50a25e80__scipy_stats___morestats.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/61e0e32a29c0__scipy_stats___mstats_basic.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/3fe227395843__scipy_stats___multivariate.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/568df62f4ea7__scipy_stats___probability_distribution.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/cf0211a79872__scipy_stats___qmc.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/2d0bb40ae7fd__scipy_stats___quantile.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/08bfc9da95e6__scipy_stats___resampling.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/3be41be74864__scipy_stats___stats_py.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/bfc369d22249__scipy_stats___variation.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/1027e2944e0a__scipy_stats__biasedurn.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/558c31c46a2c__scipy_stats__sampling.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f11b5601d96c__scipy-main_tools__refguide_check.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/1fb6fae0a680__numba_cuda__bf16.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/07ad21080ea8__numba_cuda__cuda_paths.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/abd1782f1bb9__numba_cuda__debuginfo.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/fa678c18ad08__numba_cuda__device_init.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/42b044bb7f8d__numba_cuda__flags.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/ce92b606691d__numba_cuda__itanium_mangler.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/671d9adbf1b6__numba_cuda__serialize.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d9400bcca7c9__numba_cuda__stubs.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/6effff64057e__numba_cuda__target.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/e47cd04f2fd6__cuda__internal__cuda_bf16.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/b9466d08acf4__cuda__internal__cuda_fp16.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a716833cf0d3__cuda_cloudpickle__cloudpickle.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/83ec652e00e3__cuda_core__base.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/0f674d485022__cuda_core__callconv.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/c4c1f38d56a6__cuda_core__compiler_machinery.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/85dad95be789__cuda_core__ir_utils.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/ba969510029d__cuda_core__pythonapi.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/7aa535b351b8__cuda_core__typed_passes.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/bcb168714603__cuda_core__untyped_passes.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f6d74e7122c5__cuda_simulator____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a02ef015b076__cuda_simulator__kernelapi.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/852b336f83d6__cuda_simulator__vector_types.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/15efad97d4ec__cuda_typing__npydecl.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/6e0ec9aca69d__data_dataset_readers____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a1f3a1a290e1__dataset_readers_coreference_resolution____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/2b5ffafb17bd__dataset_readers_coreference_resolution__winobias.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/7bc5395d2f1a__dataset_readers_reading_comprehension__triviaqa.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/061eec6c3075__dataset_readers_reading_comprehension__util.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/a13cc7446d2d__allennlp_models__biaffine_dependency_parser.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/50a4740e8cbe__semantic_parsing_nlvr__nlvr_decoder_step.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/b5946719a602__semantic_parsing_wikitables__wikitables_decoder_state.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/c6238945c720__semantic_parsing_wikitables__wikitables_decoder_step.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/57411f8d65c9__semantic_parsing_wikitables__wikitables_semantic_parser.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/52bec3d74502__allennlp_modules__alternating_highway_lstm.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/3888760ae163__allennlp_modules__augmented_lstm.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/fe52c7a0c996__allennlp_modules__elmo.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/8bf3739424e0__allennlp_modules__elmo_lstm.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/7ae748e96d96__allennlp_modules__highway.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/92f558c1608f__allennlp_modules__layer_norm.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/403077895709__allennlp_modules__lstm_cell_with_projection.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/bfaf63370e04__allennlp_modules__openai_transformer.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/9c5d6b17e91d__allennlp_modules__stacked_alternating_lstm.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5016dc17f962__allennlp_modules__stacked_bidirectional_lstm.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f681391e2529__modules_attention__bilinear_attention.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/65e138839b3b__modules_attention__linear_attention.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/bfd16f81a5cd__modules_matrix_attention__bilinear_matrix_attention.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/c4546df26932__modules_matrix_attention__linear_matrix_attention.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/68609773c33a__modules_similarity_functions__bilinear.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/73b39e8dc8b0__modules_similarity_functions__linear.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5a8318df41b0__allennlp_nn__initializers.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5c4170f4130b__semparse_type_declarations__type_declaration.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/3a7fadd54320__semparse_worlds__nlvr_world.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d6086600e784__allennlp_service__config_explorer.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/41cf011540a2__allennlp_service__server_simple.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/89b76c244de1__allennlp_training__optimizers.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/6ed4b8c6313d__tools_retrieval__util.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/338ab37be8ae__CQEPlus_auto_full_docs__fb6daa5636__agrmmdhg.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d97bb7ef1e22__CQEPlus_auto_full_docs__ac855b94e4____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/5b3bac3d3196__CQEPlus_auto_full_docs__a070208e3b____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/987cbf2f1897__CQEPlus_auto_full_docs__d97733ca1c__database.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/ade45a88eb44__CQEPlus_auto_full_docs__15adc6c835____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/8eb84345b3ae__CQEPlus_auto_full_docs__0927bc9808____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/29940c9b2a3f__CQEPlus_auto_full_docs__e55ae3af48__formatter.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/293c019a75e5__CQEPlus_auto_full_docs__68f7d1dd0c____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/fe406b389fcd__CQEPlus_auto_full_docs__f75d99efd1__lexer.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/c1b20c137e46__CQEPlus_auto_full_docs__fa815ef0e8____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/bf18e7d5c387__CQEPlus_auto_full_docs__8a2255f7f8__python.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/e71ed987d625__CQEPlus_auto_full_docs__7099446075__sphinxext.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/3e5399aa5b27__CQEPlus_auto_full_docs__dbdad51bbc__style.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/59b7561a1626__CQEPlus_auto_full_docs__ec2fb55d4d__token.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/70f07f6bd2d7__CQEPlus_auto_full_docs__6630dfc20c____init__.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/c782b80a61fe__CQEPlus_auto_full_docs__7969987a1d__models.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/aaa027114678__CQEPlus_auto_full_docs__550c39f303__syntax.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/e34234a233b6__CQEPlus_auto_full_docs__c5bc3b1b2c___api.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/8a928750fb59__CQEPlus_auto_full_docs__6c07845d13__typing_extensions.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/551ebc780544__CQEPlus_auto_full_docs__15560e8c24__appengine.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/d0c9e7a37287__CQEPlus_auto_full_docs__12202f02ac__exceptions.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/e8436f399f0f__CQEPlus_auto_full_docs__96c234e508__retry.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/9b30d338585d__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/4572644f080e__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/2c621e2b7303__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `cqe_organized/CODE/python/9bd70666b159__e8_toolkit_v5_e8__evidence_v5.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/005317bcd5e1__scipy_constants___codata.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/0143237dd200__io_matlab___byteordercodes.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/015e0c11a702__numba_cloudpickle__cloudpickle.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/061eec6c3075__dataset_readers_reading_comprehension__util.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/063ee28d71ca__numba_core__base.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/07ad21080ea8__numba_cuda__cuda_paths.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/08bfc9da95e6__scipy_stats___resampling.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/09fa40a51f51__numpy_fft___pocketfft.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/0a1bae3c3aa8__scipy_signal___filter_design.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/0a30b1361f4f__scipy_stats___mgc.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/0accfff84388__numpy-main_tools__refguide_check.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/0c90bd7162a9__scipy_interpolate___polyint.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/0e8b42f21891__scipy_integrate___cubature.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/0ea7da88a195__distutils_fcompiler____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/0f674d485022__cuda_core__callconv.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/1027e2944e0a__scipy_stats__biasedurn.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/108e97b8a41e__numba_cuda__target.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/10f6547c94a3__numpy__typing___array_like.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/1132c0f992a0__numpy__core___add_newdocs_scalars.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/147d8e5fb24b__numpy_linalg___linalg.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/15efad97d4ec__cuda_typing__npydecl.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/1796f5ef9e5a__scipy_integrate___quadrature.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/1842ec7d4e5c__numpydoc-main_numpydoc__xref.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/1b3c3f69c4e4__scipy_stats___hypotests.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/1bad6ab4c9d7__scipy_interpolate___bsplines.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/1f5f135ebaa4__np_random__random_methods.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/1fb6fae0a680__numba_cuda__bf16.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/2370653f4cd6__numba_core__typed_passes.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/24035074fe9c__scipy_stats___entropy.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/25e2d508081f__scipy_fft___fftlog.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/266d903cf22a__scipy__lib___docscrape.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/2926cac0e2ad__numpy__typing___nbit.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/293c019a75e5__CQEPlus_auto_full_docs__68f7d1dd0c____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/29940c9b2a3f__CQEPlus_auto_full_docs__e55ae3af48__formatter.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/2b5ffafb17bd__dataset_readers_coreference_resolution__winobias.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/2c023949b787__scipy_special___support_alternative_backends.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/2c621e2b7303__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/2d0bb40ae7fd__scipy_stats___quantile.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/2e15d8d814c7__numpy__typing___scalars.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/30275bc8a948__scipy_ndimage___measurements.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/307d5fcb3dfb__cqe_modules__e8_millennium_exploration_harness.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/338ab37be8ae__CQEPlus_auto_full_docs__fb6daa5636__agrmmdhg.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/3476107abee3__cqe-gvs_src__cqe_gvs.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/374d50a25e80__scipy_stats___morestats.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/379b247c36dc__scipy_stats___covariance.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/37fd0755422a__src_rendering__render_engine.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/3888760ae163__allennlp_modules__augmented_lstm.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/38da612066ad__core_runtime__context.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/394b951bb0f3__core_runtime__nrtopt.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/3961349ba1ff__numpy_fft____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/3a7fadd54320__semparse_worlds__nlvr_world.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/3be41be74864__scipy_stats___stats_py.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/3e5399aa5b27__CQEPlus_auto_full_docs__dbdad51bbc__style.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/3fe227395843__scipy_stats___multivariate.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/403077895709__allennlp_modules__lstm_cell_with_projection.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/4110258cf7bb__scipy_linalg__lapack.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/41cf011540a2__allennlp_service__server_simple.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/42b044bb7f8d__numba_cuda__flags.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/45664d614ded__scipy_optimize___bracket.py`
+  - Patterns matched: problem.*finding
+- `aletheia_ai/corpus_modules/4572644f080e__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/48a20d3a781f__integrate__ivp__bdf.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/4ab73a6023b9__scipy__lib___util.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/4d3426ec1981__numba_misc__dump_style.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5016dc17f962__allennlp_modules__stacked_bidirectional_lstm.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/504d90e76aa4__numpy-main_numpy__conftest.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/50a4740e8cbe__semantic_parsing_nlvr__nlvr_decoder_step.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/520a1e3f0868__scipy_fft___fftlog_backend.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/52bec3d74502__allennlp_modules__alternating_highway_lstm.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/53b05895f2e0__numba_core__ir_utils.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/53ba8b32b422__data_pass__scalars.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/551ebc780544__CQEPlus_auto_full_docs__15560e8c24__appengine.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/558c31c46a2c__scipy_stats__sampling.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/55a2f28bac50__scipy_signal___signaltools.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/568df62f4ea7__scipy_stats___probability_distribution.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/57411f8d65c9__semantic_parsing_wikitables__wikitables_semantic_parser.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/585ce7b73b54__numpy_random____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/59b7561a1626__CQEPlus_auto_full_docs__ec2fb55d4d__token.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5a4b609bdd91__numpydoc-main_numpydoc__numpydoc.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5a537537c22f__scipy_stats___binomtest.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5a8318df41b0__allennlp_nn__initializers.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5b3bac3d3196__CQEPlus_auto_full_docs__a070208e3b____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5b95afe3f250__scipy_fft___basic.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5c4170f4130b__semparse_type_declarations__type_declaration.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5d15d0e1d553__doc_source__conf.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5d817418b561__distutils_fcompiler__intel.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5e403123a91a__numba_core__callconv.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5eec5ae2c36b__distutils_fcompiler__vast.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/5f3362222304__scipy_stats____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/6145f6e1761b__numpy__core___machar.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/61cc7ad0e314__numpydoc-main_numpydoc__docscrape_sphinx.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/61e0e32a29c0__scipy_stats___mstats_basic.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/632f62036b20__data_pass__ma.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/6580bf5d0aa7__cuda_simulator__kernelapi.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/65e138839b3b__modules_attention__linear_attention.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/671d9adbf1b6__numba_cuda__serialize.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/68609773c33a__modules_similarity_functions__bilinear.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/6a5f5f2b7662__testing__private__utils.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/6b46ff7a19b3__scipy_optimize___constraints.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/6bdb26b03c1b__numba_cuda__stubs.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/6e0ec9aca69d__data_dataset_readers____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/6ed4b8c6313d__tools_retrieval__util.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/6effff64057e__numba_cuda__target.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/70ef3c7633a1__numba_cpython__randomimpl.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/70f07f6bd2d7__CQEPlus_auto_full_docs__6630dfc20c____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/71fc1e45045d__distutils_fcompiler__gnu.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/72b5b4550ffc__cuda_simulator____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/73150b94c0b8__scipy_spatial__distance.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/73724858297f__src_worlds__world_forge.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/73b39e8dc8b0__modules_similarity_functions__linear.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/745263b77e0b__scipy_integrate___ode.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/754af9bf9ddc__sparse_linalg___svdp.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/78b8794cff14__scipy_stats___kde.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/797b807b52fe__numpy_ma__core.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/79d91814109a__scipy_stats___distn_infrastructure.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/7aa535b351b8__cuda_core__typed_passes.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/7ae748e96d96__allennlp_modules__highway.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/7b9ed3c4bfb8__scipy_sparse___matrix.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/7bc5395d2f1a__dataset_readers_reading_comprehension__triviaqa.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/81b9541d4888__numpy_lib___polynomial_impl.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/81d12b5d0f80__scipy_spatial___kdtree.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/83ec652e00e3__cuda_core__base.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/852b336f83d6__cuda_simulator__vector_types.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/85dad95be789__cuda_core__ir_utils.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/86717c9ced34__scipy_linalg__blas.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/87238ca5dbc1___core_code_generators__ufunc_docstrings.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/89b76c244de1__allennlp_training__optimizers.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/8a09582c4883__numpy_typing____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/8a928750fb59__CQEPlus_auto_full_docs__6c07845d13__typing_extensions.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/8bf3739424e0__allennlp_modules__elmo_lstm.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/8c0402dc9ad6__cuda_simulator__vector_types.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/8eb84345b3ae__CQEPlus_auto_full_docs__0927bc9808____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/8f4bc564d52c__numba_parfors__parfor.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/8fc9e40965cb__numpy__typing___dtype_like.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/9007938682ba__scipy_sparse___base.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/92d2297f2613__scipy_interpolate___interpolate.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/92f558c1608f__allennlp_modules__layer_norm.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/9321c8287dbb__numpy__core__getlimits.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/939cbf76aef6__numba_core__itanium_mangler.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/950fca82a4bc__numpy__core__arrayprint.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/951cacfcd96b__cqe_modules__script (22).py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/987cbf2f1897__CQEPlus_auto_full_docs__d97733ca1c__database.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/98a3dbb0ecd7__numpy__core__numerictypes.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/9ac147064676__numpy__core___type_aliases.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/9b03ac37bc7a__core_typing__npydecl.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/9b30d338585d__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/9bd70666b159__e8_toolkit_v5_e8__evidence_v5.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/9c5d6b17e91d__allennlp_modules__stacked_alternating_lstm.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/9ef921b03291__numba_core__untyped_passes.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/9f6b32043edc__numba_np__arraymath.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a02ef015b076__cuda_simulator__kernelapi.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a09eec1f8be5__numpy_lib___nanfunctions_impl.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a13cc7446d2d__allennlp_models__biaffine_dependency_parser.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a1f3a1a290e1__dataset_readers_coreference_resolution____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a2b40aeda9e1__numba_cuda__device_init.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a3d3cdf5892f__scipy_special___generate_pyx.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a64ec07bace0__numpy_lib___function_base_impl.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a716833cf0d3__cuda_cloudpickle__cloudpickle.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a82f3aecdfaa__numba_core__compiler.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/a994122a1fa3__numpy__core__fromnumeric.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/aa10347e69a4__optimize__trustregion_constr__minimize_trustregion_constr.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/aaa027114678__CQEPlus_auto_full_docs__550c39f303__syntax.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/abd1782f1bb9__numba_cuda__debuginfo.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/ade45a88eb44__CQEPlus_auto_full_docs__15adc6c835____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/ae441958df77__numpy__core__numeric.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/af51668ad109__cqe_modules__script (33).py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/b01a20806a38__scipy_io__wavfile.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/b235a67d9f41__scipy_interpolate___bary_rational.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/b2a07abb8c9c__benchmarks_benchmarks__stats_sampling.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/b32cc3542ee8__numpy_lib___shape_base_impl.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/b5946719a602__semantic_parsing_wikitables__wikitables_decoder_state.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/b5efc18a62bc__core_types____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/b9466d08acf4__cuda__internal__cuda_fp16.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/ba969510029d__cuda_core__pythonapi.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/bb065415ed3a__integrate__ivp__rk.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/bc5308876c70__numpy_ma__extras.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/bcb168714603__cuda_core__untyped_passes.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/be25b886305b__numpy-main_numpy____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/bee6bcb52e45__numpy__core___add_newdocs.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/bf07d8939352__core_runtime__nrt.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/bf18e7d5c387__CQEPlus_auto_full_docs__8a2255f7f8__python.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/bfaf63370e04__allennlp_modules__openai_transformer.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/bfc369d22249__scipy_stats___variation.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/bfd16f81a5cd__modules_matrix_attention__bilinear_matrix_attention.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/c1b20c137e46__CQEPlus_auto_full_docs__fa815ef0e8____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/c32fa7e2f47f__benchmarks_benchmarks__stats.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/c4546df26932__modules_matrix_attention__linear_matrix_attention.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/c4c1f38d56a6__cuda_core__compiler_machinery.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/c6238945c720__semantic_parsing_wikitables__wikitables_decoder_step.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/c782b80a61fe__CQEPlus_auto_full_docs__7969987a1d__models.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/c7f0cd9ca8e4__scipy_optimize___nonlin.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/cbc053103e38__numba_core__pythonapi.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/cd0d9f706e49__scipy_interpolate___ndbspline.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/cd81aea847cf__numpy_lib____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/cdfded11e296__scipy_cluster__hierarchy.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/ce92b606691d__numba_cuda__itanium_mangler.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/cee3f0802d22__numpy-main_numpy__dtypes.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/cf0211a79872__scipy_stats___qmc.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/cf5160d9dd50__scipy__lib___array_api.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d067a66e8e87__scipy_signal___waveforms.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d0c9e7a37287__CQEPlus_auto_full_docs__12202f02ac__exceptions.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d0e09e385c14__numba_misc__numba_sysinfo.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d119859b1979__numba_parfors__parfor_lowering.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d316b15150e3__numpy__typing____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d34833cf2ff1__numpy_ma__mrecords.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d4a21ed98dcd__scipy_signal___short_time_fft.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d52b0024b4a0__scipy_interpolate___rgi.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d555fd1211a2__numba_core__funcdesc.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d6086600e784__allennlp_service__config_explorer.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d6971f2f125a__numpy_typing__mypy_plugin.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d9400bcca7c9__numba_cuda__stubs.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d9403d23a7c4__cqe_modules__script (10).py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/d97bb7ef1e22__CQEPlus_auto_full_docs__ac855b94e4____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/db7f18c80957__scipy_stats___fit.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/dbc48bbdfbfa__scipy__lib___array_api_docs_tables.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/dd007a43995f__numpydoc-main_numpydoc__docscrape.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/e24e8af9f0cc__numba_parfors__array_analysis.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/e34234a233b6__CQEPlus_auto_full_docs__c5bc3b1b2c___api.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/e47cd04f2fd6__cuda__internal__cuda_bf16.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/e71ed987d625__CQEPlus_auto_full_docs__7099446075__sphinxext.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/e8436f399f0f__CQEPlus_auto_full_docs__96c234e508__retry.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/e929a0a22ea8__numpy__core___string_helpers.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/e9c16ff8b6d2__numpy__typing___shape.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/eadfa768e076__scipy_stats___discrete_distns.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/ee8d1636808b__sparse_linalg___interface.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f11b5601d96c__scipy-main_tools__refguide_check.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f1770ba92f43___core_code_generators__generate_umath.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f3e67d899111__numpy_distutils__system_info.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f4eadd9a5c6f__scipy_stats___distribution_infrastructure.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f4ffeba2364f__core_typing__asnumbatype.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f523bc2b9934__cqe_modules__e8_pathway_explorer.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f558eb573948__scipy__lib___array_api_override.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f5b3ac43be09__scipy_special___orthogonal.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f622a0b43fb0__numba_core__serialize.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f681391e2529__modules_attention__bilinear_attention.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f6d74e7122c5__cuda_simulator____init__.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f6d831f2d2ae__misc_help__inspector.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f77c6e613f23__scipy_signal___spectral_py.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f81b84c16a02__numpy__core__defchararray.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/f94bae54f574__numba_core__compiler_machinery.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/fa678c18ad08__numba_cuda__device_init.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/faced0686a3e__scipy_interpolate___rbfinterp.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/fad131e75ffd__scipy_optimize___direct_py.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/fd40158fe835__numpy__core__records.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/fdf3ebc02cac__numba_cuda__cuda_paths.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/fe406b389fcd__CQEPlus_auto_full_docs__f75d99efd1__lexer.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/fe52c7a0c996__allennlp_modules__elmo.py`
+  - Patterns matched: ias
+- `aletheia_ai/corpus_modules/ff783b0fee87__numpy__typing___add_docstring.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/2c621e2b7303__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/307d5fcb3dfb__cqe_modules__e8_millennium_exploration_harness.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/338ab37be8ae__CQEPlus_auto_full_docs__fb6daa5636__agrmmdhg.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/3476107abee3__cqe-gvs_src__cqe_gvs.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/4572644f080e__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/951cacfcd96b__cqe_modules__script (22).py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/9b30d338585d__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/af51668ad109__cqe_modules__script (33).py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/d9403d23a7c4__cqe_modules__script (10).py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/f523bc2b9934__cqe_modules__e8_pathway_explorer.py`
+  - Patterns matched: ias
+- `aletheia_ai/cqe_native/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/top_priorities/slice_impls/2c621e2b7303__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/top_priorities/slice_impls/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/top_priorities/slice_impls/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/top_priorities/slice_impls/4572644f080e__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/top_priorities/slice_impls/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/top_priorities/slice_impls/9b30d338585d__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/top_priorities/slice_impls/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/top_priorities/slice_impls/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/top_priorities/slice_impls/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/modules/slices/2c621e2b7303__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/modules/slices/31c1cc5741a6__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/modules/slices/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/modules/slices/4572644f080e__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/modules/slices/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/modules/slices/9b30d338585d__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/modules/slices/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/modules/slices/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `aletheia_ai/modules/slices/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: ias
+- `scene8_standalone/src/scene8_complete.py`
+  - Patterns matched: intent.*slice
+
+### Isomorphic State Overlay
+
+**Files found:** 43
+
+- `cqe_organized/CODE/python/d9403d23a7c4__cqe_modules__script (10).py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/d1fe0733bbf9__cqe_modules__script (68).py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/7922383b0f50__cqe_modules__script (69).py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/413f04f88b25__cqe_modules__script (70).py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/457e12808ac7__cqe_modules__script (71).py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/d23670bbf995__cqe_modules__validate_navier_stokes.py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `cqe_organized/CODE/python/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/413f04f88b25__cqe_modules__script (70).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/457e12808ac7__cqe_modules__script (71).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/7922383b0f50__cqe_modules__script (69).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/d1fe0733bbf9__cqe_modules__script (68).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/d23670bbf995__cqe_modules__validate_navier_stokes.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/d9403d23a7c4__cqe_modules__script (10).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/corpus_modules/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/413f04f88b25__cqe_modules__script (70).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/457e12808ac7__cqe_modules__script (71).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/7922383b0f50__cqe_modules__script (69).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/d1fe0733bbf9__cqe_modules__script (68).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/d23670bbf995__cqe_modules__validate_navier_stokes.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/d9403d23a7c4__cqe_modules__script (10).py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/cqe_native/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/top_priorities/slice_impls/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/top_priorities/slice_impls/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/top_priorities/slice_impls/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/top_priorities/slice_impls/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/top_priorities/slice_impls/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/modules/slices/3e6cdad747b4__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/modules/slices/52a4955c2192__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/modules/slices/ca39a9079807__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/modules/slices/dc082853cac3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+- `aletheia_ai/modules/slices/f85137771af3__cqe_unified_cqe_unified__slice_impls.py`
+  - Patterns matched: state.*overlay
+
+### Morphonic State Machine
+
+**Files found:** 42
+
+- `cqe_organized/CODE/python/855fc69e15a0__cqe_modules__unified_system.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/26d500e47337__docs_source__conf.py`
+  - Patterns matched: state.*machine
+- `cqe_organized/CODE/python/5a4b609bdd91__numpydoc-main_numpydoc__numpydoc.py`
+  - Patterns matched: state.*machine
+- `cqe_organized/CODE/python/5d15d0e1d553__doc_source__conf.py`
+  - Patterns matched: state.*machine
+- `cqe_organized/CODE/python/7905bc2392bc__doc_source__array_api_capabilities_table.py`
+  - Patterns matched: state.*machine
+- `cqe_organized/CODE/python/a5a2f969eb81__doc_source__conf.py`
+  - Patterns matched: state.*machine
+- `cqe_organized/CODE/python/393240ceb578__doc_source__scipyoptdoc.py`
+  - Patterns matched: state.*machine
+- `cqe_organized/CODE/python/22c1dcbf78b5__scipy_optimize___basinhopping.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/614efd684468__scipy_optimize___dual_annealing.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/7516055d7697__scipy_sparse___construct.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/901f66c428ea__linalg__eigen___svds.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/db7f18c80957__scipy_stats___fit.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/c6238945c720__semantic_parsing_wikitables__wikitables_decoder_step.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/0883c18e078d__nn_decoding____init__.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/d31517263b8c__nn_decoding__decoder_state.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/a0266ad3bf11__nn_decoding__decoder_step.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/15b8e9acb5c6__decoding_decoder_trainers__decoder_trainer.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/fe406b389fcd__CQEPlus_auto_full_docs__f75d99efd1__lexer.py`
+  - Patterns matched: state.*transition
+- `cqe_organized/CODE/python/e71ed987d625__CQEPlus_auto_full_docs__7099446075__sphinxext.py`
+  - Patterns matched: state.*machine
+- `cqe_organized/CODE/python/fc1db4a5e5ef__cqe_vNext_1__cqe____init__.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/0883c18e078d__nn_decoding____init__.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/15b8e9acb5c6__decoding_decoder_trainers__decoder_trainer.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/22c1dcbf78b5__scipy_optimize___basinhopping.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/26d500e47337__docs_source__conf.py`
+  - Patterns matched: state.*machine
+- `aletheia_ai/corpus_modules/393240ceb578__doc_source__scipyoptdoc.py`
+  - Patterns matched: state.*machine
+- `aletheia_ai/corpus_modules/5a4b609bdd91__numpydoc-main_numpydoc__numpydoc.py`
+  - Patterns matched: state.*machine
+- `aletheia_ai/corpus_modules/5d15d0e1d553__doc_source__conf.py`
+  - Patterns matched: state.*machine
+- `aletheia_ai/corpus_modules/614efd684468__scipy_optimize___dual_annealing.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/7516055d7697__scipy_sparse___construct.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/7905bc2392bc__doc_source__array_api_capabilities_table.py`
+  - Patterns matched: state.*machine
+- `aletheia_ai/corpus_modules/855fc69e15a0__cqe_modules__unified_system.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/901f66c428ea__linalg__eigen___svds.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/a0266ad3bf11__nn_decoding__decoder_step.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/a5a2f969eb81__doc_source__conf.py`
+  - Patterns matched: state.*machine
+- `aletheia_ai/corpus_modules/c6238945c720__semantic_parsing_wikitables__wikitables_decoder_step.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/d31517263b8c__nn_decoding__decoder_state.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/db7f18c80957__scipy_stats___fit.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/e71ed987d625__CQEPlus_auto_full_docs__7099446075__sphinxext.py`
+  - Patterns matched: state.*machine
+- `aletheia_ai/corpus_modules/fc1db4a5e5ef__cqe_vNext_1__cqe____init__.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/corpus_modules/fe406b389fcd__CQEPlus_auto_full_docs__f75d99efd1__lexer.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/cqe_native/855fc69e15a0__cqe_modules__unified_system.py`
+  - Patterns matched: state.*transition
+- `aletheia_ai/cqe_native/fc1db4a5e5ef__cqe_vNext_1__cqe____init__.py`
+  - Patterns matched: state.*transition
+
+### Orbit-Stable Detection
+
+**Files found:** 3
+
+- `cqe_organized/CODE/python/63ea150d5dd9__cqe_modules__cqe_mandelbrot_fractal_integration.py`
+  - Patterns matched: orbit.*stable
+- `aletheia_ai/corpus_modules/63ea150d5dd9__cqe_modules__cqe_mandelbrot_fractal_integration.py`
+  - Patterns matched: orbit.*stable
+- `aletheia_ai/cqe_native/63ea150d5dd9__cqe_modules__cqe_mandelbrot_fractal_integration.py`
+  - Patterns matched: orbit.*stable
+
+### Prime Generator App
+
+**Files found:** 2
+
+- `cqe_organized/CODE/python/d93c398305c7__signal_windows___windows.py`
+  - Patterns matched: generate.*prime
+- `aletheia_ai/corpus_modules/d93c398305c7__signal_windows___windows.py`
+  - Patterns matched: generate.*prime
+
+### Provenance Tracking
+
+**Files found:** 71
+
+- `cqe_organized/CODE/python/595edc453c71__cqe_modules__deep_pattern_mining.py`
+  - Patterns matched: geometric.*source
+- `cqe_organized/CODE/python/9d9b1e1e6c25__cqe_modules__script (16).py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/3c89344dfd60__cqe_experimental__0b549f1c.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/1cbfd63b03a6__cqe_experimental__26a1d99f.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/8546932897f8__cqe_experimental__573ed14c.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/b8382157dda3__cqe_experimental__7be714a5.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/055aa537cd65__cqe_experimental__809aa84d.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/314daba33c76__cqe_experimental__88dbe8ca.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/949b9e0def83__cqe_experimental__8c104040.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/cea9494e4aab__cqe_experimental__a6142699.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/a4598333b05c__cqe_experimental__b3a6cbca.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/5ce897d5e274__cqe_experimental__ded9f751.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/3fd4937c54d5__cqe_experimental__e944a271.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/179b8544096d__cqe_experimental__ed7dce56.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/3eb9eda05f33__cqe_experimental__f46b8acf.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/0ba25e386d3e__cqe_experimental__f90be0ec.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/7ddf6ae554c4__cqe_experimental__migrate_snap_v1_to_v2.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/015e0c11a702__numba_cloudpickle__cloudpickle.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/a716833cf0d3__cuda_cloudpickle__cloudpickle.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/30df1ff72dfb__cqe_core____init__.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/e55a08f61785__cqe_core__provenance.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/420cdfb31d4f__cqe_core__morsr.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/9d29e4142c73__cqe_core__cqe.py`
+  - Patterns matched: provenance
+- `cqe_organized/CODE/python/92729d83b002__src_cqe_10_tools__cqe-core-engine.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/015e0c11a702__numba_cloudpickle__cloudpickle.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/055aa537cd65__cqe_experimental__809aa84d.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/0ba25e386d3e__cqe_experimental__f90be0ec.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/179b8544096d__cqe_experimental__ed7dce56.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/1cbfd63b03a6__cqe_experimental__26a1d99f.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/30df1ff72dfb__cqe_core____init__.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/314daba33c76__cqe_experimental__88dbe8ca.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/3c89344dfd60__cqe_experimental__0b549f1c.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/3eb9eda05f33__cqe_experimental__f46b8acf.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/3fd4937c54d5__cqe_experimental__e944a271.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/420cdfb31d4f__cqe_core__morsr.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/595edc453c71__cqe_modules__deep_pattern_mining.py`
+  - Patterns matched: geometric.*source
+- `aletheia_ai/corpus_modules/5ce897d5e274__cqe_experimental__ded9f751.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/7ddf6ae554c4__cqe_experimental__migrate_snap_v1_to_v2.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/8546932897f8__cqe_experimental__573ed14c.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/92729d83b002__src_cqe_10_tools__cqe-core-engine.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/949b9e0def83__cqe_experimental__8c104040.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/9d29e4142c73__cqe_core__cqe.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/9d9b1e1e6c25__cqe_modules__script (16).py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/a4598333b05c__cqe_experimental__b3a6cbca.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/a716833cf0d3__cuda_cloudpickle__cloudpickle.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/b8382157dda3__cqe_experimental__7be714a5.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/cea9494e4aab__cqe_experimental__a6142699.py`
+  - Patterns matched: provenance
+- `aletheia_ai/corpus_modules/e55a08f61785__cqe_core__provenance.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/055aa537cd65__cqe_experimental__809aa84d.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/0ba25e386d3e__cqe_experimental__f90be0ec.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/179b8544096d__cqe_experimental__ed7dce56.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/1cbfd63b03a6__cqe_experimental__26a1d99f.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/30df1ff72dfb__cqe_core____init__.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/314daba33c76__cqe_experimental__88dbe8ca.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/3c89344dfd60__cqe_experimental__0b549f1c.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/3eb9eda05f33__cqe_experimental__f46b8acf.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/3fd4937c54d5__cqe_experimental__e944a271.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/420cdfb31d4f__cqe_core__morsr.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/595edc453c71__cqe_modules__deep_pattern_mining.py`
+  - Patterns matched: geometric.*source
+- `aletheia_ai/cqe_native/5ce897d5e274__cqe_experimental__ded9f751.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/7ddf6ae554c4__cqe_experimental__migrate_snap_v1_to_v2.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/8546932897f8__cqe_experimental__573ed14c.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/92729d83b002__src_cqe_10_tools__cqe-core-engine.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/949b9e0def83__cqe_experimental__8c104040.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/9d29e4142c73__cqe_core__cqe.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/9d9b1e1e6c25__cqe_modules__script (16).py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/a4598333b05c__cqe_experimental__b3a6cbca.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/b8382157dda3__cqe_experimental__7be714a5.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/cea9494e4aab__cqe_experimental__a6142699.py`
+  - Patterns matched: provenance
+- `aletheia_ai/cqe_native/e55a08f61785__cqe_core__provenance.py`
+  - Patterns matched: provenance
+- `scene8_standalone/src/scene8_complete.py`
+  - Patterns matched: provenance
+
+### Scene8 Interface
+
+**Files found:** 52
+
+- `cqe_organized/CODE/python/f7e9e5cfb3c0__CQE_master_full_20251016T200315_live_stream_demo__run_stream.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/f7d68e4adb5f__CQE_master_full_20251016T200315_live_stream_demo__scene8_adapter.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/29e626d8fcb4__CQEPlus_auto_full_docs__cd0f175a3a__setup.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/9f1afe4a2247__src_engine__f301e10627__engine.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/db56af52e90b__CQEPlus_auto_full_harness__6a56057d9d__scene8.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/9ff894a4fa47__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/641cc723a342__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/5185a802c4f3__src_scene8_gvs____init__.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/4cf347012dec__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/9147eeb161fb__src_worldforge__world.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/203e1e9841d6__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/16b34ac13eb1__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/5c456209e379__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/68ee06635de0__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/b55314d0803e__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/608ef6a2877e__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/b2cb08a1963a__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: scene8
+- `cqe_organized/CODE/python/ed313cf9b781__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/16b34ac13eb1__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/203e1e9841d6__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/29e626d8fcb4__CQEPlus_auto_full_docs__cd0f175a3a__setup.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/4cf347012dec__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/5185a802c4f3__src_scene8_gvs____init__.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/5c456209e379__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/608ef6a2877e__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/641cc723a342__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/68ee06635de0__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/9147eeb161fb__src_worldforge__world.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/9f1afe4a2247__src_engine__f301e10627__engine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/9ff894a4fa47__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/b2cb08a1963a__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/b55314d0803e__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/db56af52e90b__CQEPlus_auto_full_harness__6a56057d9d__scene8.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/ed313cf9b781__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/f7d68e4adb5f__CQE_master_full_20251016T200315_live_stream_demo__scene8_adapter.py`
+  - Patterns matched: scene8
+- `aletheia_ai/corpus_modules/f7e9e5cfb3c0__CQE_master_full_20251016T200315_live_stream_demo__run_stream.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/16b34ac13eb1__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/203e1e9841d6__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/4cf347012dec__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/5185a802c4f3__src_scene8_gvs____init__.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/5c456209e379__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/608ef6a2877e__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/641cc723a342__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/68ee06635de0__src_cqe_core__pixel_synthesis_harness.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/9147eeb161fb__src_worldforge__world.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/9ff894a4fa47__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/b2cb08a1963a__src_scene8_gvs__sim_renderer.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/b55314d0803e__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/db56af52e90b__CQEPlus_auto_full_harness__6a56057d9d__scene8.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/ed313cf9b781__src_cqe_core__spine.py`
+  - Patterns matched: scene8
+- `aletheia_ai/cqe_native/f7d68e4adb5f__CQE_master_full_20251016T200315_live_stream_demo__scene8_adapter.py`
+  - Patterns matched: scene8
+- `scene8_standalone/src/scene8_complete.py`
+  - Patterns matched: scene8
+
+### Weyl Chamber Selection
+
+**Files found:** 24
+
+- `cqe_organized/CODE/python/487366bf5c9d__cqe_modules__script (1).py`
+  - Patterns matched: weyl.*navigation
+- `cqe_organized/CODE/python/93b7df06b141__cqe_modules__script (11).py`
+  - Patterns matched: weyl.*navigation, chamber.*switch
+- `cqe_organized/CODE/python/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: weyl.*navigation
+- `cqe_organized/CODE/python/d41101073dc5__cqe_modules__script (2).py`
+  - Patterns matched: weyl.*navigation
+- `cqe_organized/CODE/python/951cacfcd96b__cqe_modules__script (22).py`
+  - Patterns matched: weyl.*navigation
+- `cqe_organized/CODE/python/dc1548103e8f__cqe_modules__script (34).py`
+  - Patterns matched: chamber.*selection
+- `cqe_organized/CODE/python/25ed22c308e2__cqe_modules__script (67).py`
+  - Patterns matched: weyl.*navigation
+- `cqe_organized/CODE/python/9f5eb8e8f442__cqe_modules__script.py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/corpus_modules/25ed22c308e2__cqe_modules__script (67).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/corpus_modules/487366bf5c9d__cqe_modules__script (1).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/corpus_modules/93b7df06b141__cqe_modules__script (11).py`
+  - Patterns matched: weyl.*navigation, chamber.*switch
+- `aletheia_ai/corpus_modules/951cacfcd96b__cqe_modules__script (22).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/corpus_modules/9f5eb8e8f442__cqe_modules__script.py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/corpus_modules/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/corpus_modules/d41101073dc5__cqe_modules__script (2).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/corpus_modules/dc1548103e8f__cqe_modules__script (34).py`
+  - Patterns matched: chamber.*selection
+- `aletheia_ai/cqe_native/25ed22c308e2__cqe_modules__script (67).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/cqe_native/487366bf5c9d__cqe_modules__script (1).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/cqe_native/93b7df06b141__cqe_modules__script (11).py`
+  - Patterns matched: weyl.*navigation, chamber.*switch
+- `aletheia_ai/cqe_native/951cacfcd96b__cqe_modules__script (22).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/cqe_native/9f5eb8e8f442__cqe_modules__script.py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/cqe_native/a874c5f8be78__cqe_modules__script (15).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/cqe_native/d41101073dc5__cqe_modules__script (2).py`
+  - Patterns matched: weyl.*navigation
+- `aletheia_ai/cqe_native/dc1548103e8f__cqe_modules__script (34).py`
+  - Patterns matched: chamber.*selection
+
+---
+
+## Not Found (Need to Build)
+
+- Lattice Visualizer
+- Quarantine Rails

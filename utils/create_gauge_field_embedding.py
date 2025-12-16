@@ -1,5 +1,5 @@
 def create_gauge_field_embedding():
-    \"\"\"Create diagram showing gauge field to E8 embedding\"\"\"
+    """"""
     fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(16, 5))
     
     # Panel 1: Yang-Mills Gauge Field

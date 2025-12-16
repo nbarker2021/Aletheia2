@@ -1,7 +1,8 @@
+from pathlib import Path
 class FocusedCQEAnalyzer:
     """Efficient analyzer focusing on key CQE patterns."""
     
-    def __init__(self, base_path: str = "/home/ubuntu/cqe_analysis"):
+    def __init__(self, base_path: str = None):
         self.base_path = Path(base_path)
         self.key_patterns = {}
         self.concept_connections = defaultdict(set)
@@ -393,7 +394,7 @@ if __name__ == "__main__":
     report = analyzer.generate_focused_report()
     
     # Save report
-    output_path = Path("/home/ubuntu/cqe_analysis/universe_exploration/focused_analysis_report.json")
+    output_path = Path(__file__).parent / "cqe_analysis/universe_exploration/focused_analysis_report.json"
     with open(output_path, 'w') as f:
         json.dump(report, f, indent=2, default=str)
     

@@ -13,19 +13,3 @@ def cross_validate_constructions(hodge_class, variety, num_trials=5):
     cohomology_classes = [compute_cohomology_class(cycle, variety) 
                          for cycle in constructions]
     
-    consistency = all(np.allclose(cohomology_classes[0], cls) 
-                     for cls in cohomology_classes[1:])
-    
-    return {
-        'consistent': consistency,
-        'constructions': constructions,
-        'variance': np.var([cls.norm() for cls in cohomology_classes])
-    }
-```
-
-\section{Reporting and Visualization}
-
-\subsection{Result Presentation}
-
-\textbf{Comprehensive Report Generation}
-```python

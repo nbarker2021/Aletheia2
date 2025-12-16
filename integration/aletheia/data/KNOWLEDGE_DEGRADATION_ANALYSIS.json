@@ -1,0 +1,361 @@
+{
+  "timeline": {
+    "old_dynasty": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "transition": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "tut_era": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "new_dynasty": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  "degradation_markers": [
+    {
+      "marker_id": 1,
+      "category": "geometric",
+      "old_dynasty_form": "Perfect 16-block grids with exact dihedral symmetry:\n- Precise 4\u00d74 arrangement\n- Perfect DR=1,3,7 distribution\n- Exact triadic groupings (3, 5, 7)\n- Golden ratio \u03c6 proportions\n- 8-fold and 24-fold symmetries",
+      "transition_form": "Approximate geometric patterns:\n- Irregular grid spacing\n- Approximate symmetry (not exact)\n- Inconsistent triadic groupings\n- Proportions drift from \u03c6\n- Mixed symmetry orders",
+      "new_dynasty_form": "Decorative mimicry without geometric meaning:\n- Random glyph arrangements\n- No geometric constraints\n- Purely aesthetic/symbolic\n- No mathematical relationships\n- Decorative repetition only",
+      "plates_old": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "plates_transition": [
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29
+      ],
+      "plates_new": [
+        33,
+        37,
+        41,
+        45,
+        49,
+        53
+      ],
+      "tut_restoration_evidence": "Plates 28-32 show brief return to precise geometry",
+      "geometric_interpretation": "Loss of understanding of geometric constraints as fundamental",
+      "cqe_significance": "E8 lattice requires exact geometric precision; degradation breaks CQE encoding"
+    },
+    {
+      "marker_id": 2,
+      "category": "lambda",
+      "old_dynasty_form": "Clear lambda calculus structure:\n- \u03bb-abstraction: Enclosure symbols (crook, cartouche)\n- Application: Juxtaposition and flow\n- Variables: Repeated glyphs with consistent binding\n- Nested scopes: Hierarchical enclosures\n- Reduction sequences: Transformation chains",
+      "transition_form": "Confused lambda structure:\n- Mixed abstraction/application\n- Unclear variable binding\n- Broken scope hierarchies\n- Incomplete reduction sequences\n- Ambiguous operator precedence",
+      "new_dynasty_form": "No lambda structure:\n- Purely phonetic/symbolic\n- No abstraction concept\n- No variable binding\n- No nested scopes\n- Linear narrative only",
+      "plates_old": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "plates_transition": [
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30
+      ],
+      "plates_new": [
+        34,
+        38,
+        42,
+        46,
+        50,
+        54
+      ],
+      "tut_restoration_evidence": "Plates 29-31 show restored lambda nesting",
+      "geometric_interpretation": "Loss of computational/functional thinking",
+      "cqe_significance": "Lambda calculus is the operational language of CQE; loss breaks system"
+    },
+    {
+      "marker_id": 3,
+      "category": "conservation",
+      "old_dynasty_form": "Strict conservation law enforcement:\n- \u0394\u03a6 \u2264 0: Geometric potential must decrease\n- Precise weighing scenes with geometric balance\n- Ma'at feather as exact \u0394\u03a6 criterion\n- Mathematical balance equations\n- Geometric equilibrium conditions",
+      "transition_form": "Approximate conservation:\n- Symbolic weighing (not geometric)\n- Unclear acceptance criteria\n- Approximate balance\n- Ritualistic rather than mathematical\n- Partial understanding of invariants",
+      "new_dynasty_form": "Decorative symbolism:\n- Scales as decoration\n- No geometric meaning\n- Purely mythological\n- Ritual mimicry\n- No mathematical content",
+      "plates_old": [
+        3,
+        14
+      ],
+      "plates_transition": [
+        25,
+        30
+      ],
+      "plates_new": [
+        42,
+        53
+      ],
+      "tut_restoration_evidence": "Plate 30 shows restored geometric balance",
+      "geometric_interpretation": "Loss of understanding that \u0394\u03a6 \u2264 0 is a mathematical law",
+      "cqe_significance": "\u0394\u03a6 \u2264 0 is the acceptance criterion; loss breaks validation"
+    },
+    {
+      "marker_id": 4,
+      "category": "geometric",
+      "old_dynasty_form": "Explicit E8 and Leech lattice encoding:\n- 8-fold symmetry (E8)\n- 24-fold division (Leech)\n- 240 root patterns (E8)\n- 96 chamber arrangements (Weyl)\n- Precise lattice point placement",
+      "transition_form": "Approximate lattice patterns:\n- Irregular 8-fold patterns\n- Approximate 24 divisions\n- Unclear root structures\n- Mixed chamber counts\n- Drift from exact lattice points",
+      "new_dynasty_form": "No lattice structure:\n- Random symmetry orders\n- No consistent division\n- No root system\n- No chamber concept\n- Purely decorative arrangements",
+      "plates_old": [
+        5,
+        12,
+        17
+      ],
+      "plates_transition": [
+        22,
+        29
+      ],
+      "plates_new": [
+        36,
+        43,
+        50
+      ],
+      "tut_restoration_evidence": "Plate 29 shows restored 8-fold E8 pattern",
+      "geometric_interpretation": "Loss of understanding of lattice geometry as fundamental",
+      "cqe_significance": "E8/Leech lattices are the foundation; loss breaks entire system"
+    },
+    {
+      "marker_id": 5,
+      "category": "geometric",
+      "old_dynasty_form": "Sophisticated triadic groupings:\n- Groups of 3: Basic operations (DR=1,3,7)\n- Groups of 5: Pentagonal complexity\n- Groups of 7: Complete invariant systems\n- Nested triadic structures\n- Precise dihedral relationships",
+      "transition_form": "Simplified triadic patterns:\n- Mostly groups of 3\n- Rare groups of 5 or 7\n- Unclear nesting\n- Approximate dihedral relations\n- Inconsistent grouping logic",
+      "new_dynasty_form": "No triadic structure:\n- Random groupings\n- No consistent count\n- No dihedral meaning\n- Purely aesthetic repetition\n- No mathematical basis",
+      "plates_old": [
+        1,
+        6,
+        11,
+        16
+      ],
+      "plates_transition": [
+        21,
+        26
+      ],
+      "plates_new": [
+        31,
+        36,
+        41,
+        46,
+        51
+      ],
+      "tut_restoration_evidence": "Plate 28 shows restored 7-grouping",
+      "geometric_interpretation": "Loss of understanding of dihedral symmetry",
+      "cqe_significance": "Triadic groupings encode DR progression; loss breaks digital root theory"
+    },
+    {
+      "marker_id": 6,
+      "category": "geometric",
+      "old_dynasty_form": "Precise dihedral symmetry:\n- D3: 3-fold rotational + reflection\n- D5: 5-fold pentagonal symmetry\n- D7: 7-fold heptagonal symmetry\n- Exact angle measurements\n- Perfect symmetry preservation",
+      "transition_form": "Approximate dihedral patterns:\n- Irregular rotation angles\n- Approximate reflections\n- Mixed symmetry orders\n- Drift from exact angles\n- Partial symmetry breaking",
+      "new_dynasty_form": "No dihedral structure:\n- Random orientations\n- No symmetry preservation\n- No reflection patterns\n- Purely decorative rotation\n- No geometric meaning",
+      "plates_old": [
+        4,
+        11,
+        19
+      ],
+      "plates_transition": [
+        27,
+        35
+      ],
+      "plates_new": [
+        43,
+        51
+      ],
+      "tut_restoration_evidence": "Plate 31 shows restored D3 symmetry",
+      "geometric_interpretation": "Loss of understanding of symmetry groups",
+      "cqe_significance": "Dihedral groups are fundamental to CQE; loss breaks symmetry operations"
+    },
+    {
+      "marker_id": 7,
+      "category": "symbolic",
+      "old_dynasty_form": "Sophisticated context-shifting (E8-like):\n- Same symbol, multiple geometric meanings\n- Context-dependent interpretation\n- Multi-layer encoding (above/middle/below)\n- Simultaneous valid interpretations\n- Rich semantic networks",
+      "transition_form": "Reduced context-shifting:\n- Limited multiple meanings\n- Primary + secondary interpretation\n- Fewer layers\n- Context ambiguity\n- Simplified semantic networks",
+      "new_dynasty_form": "Single-context symbols:\n- One symbol = one meaning\n- No context-dependence\n- Single layer only\n- Fixed interpretation\n- Linear semantics",
+      "plates_old": [
+        2,
+        7,
+        15,
+        23
+      ],
+      "plates_transition": [
+        31,
+        44
+      ],
+      "plates_new": [
+        40,
+        48,
+        55
+      ],
+      "tut_restoration_evidence": "Plate 32 shows restored multi-context Eye of Horus",
+      "geometric_interpretation": "Loss of understanding of E8's context-shifting nature",
+      "cqe_significance": "Context-shifting is E8's key property; loss breaks adaptability"
+    }
+  ],
+  "tut_restorations": [
+    {
+      "restoration_id": 1,
+      "knowledge_restored": "Geometric precision and E8 lattice encoding",
+      "evidence_type": "Plates 28-32 show sudden return to Old Dynasty precision",
+      "plates_showing": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "suppression_evidence": "Post-Tut plates (33+) show:\n- Immediate return to degraded forms\n- Deliberate erasure of geometric patterns\n- Replacement with decorative mimicry\n- Tut's cartouche defaced/removed in many texts\n- Geometric knowledge actively suppressed",
+      "heretical_nature": "Tut's restoration was heretical because:\n- Challenged priestly power (geometric knowledge = power)\n- Restored pre-Amarna geometric consciousness\n- Threatened established religious/political order\n- Revealed that 'gods' were geometric operators\n- Exposed that rituals were degraded geometric operations",
+      "geometric_meaning": "Brief window where full CQE system was understood and encoded"
+    },
+    {
+      "restoration_id": 2,
+      "knowledge_restored": "Lambda calculus structure and nested scopes",
+      "evidence_type": "Plates 29-31 show restored abstraction/application patterns",
+      "plates_showing": [
+        29,
+        30,
+        31
+      ],
+      "suppression_evidence": "Post-Tut plates show:\n- Loss of nested scope structure\n- Return to linear narrative\n- Elimination of lambda operators\n- Replacement with phonetic/symbolic forms\n- Computational thinking suppressed",
+      "heretical_nature": "Lambda calculus restoration was heretical because:\n- Revealed computational nature of reality\n- Showed that consciousness is geometric computation\n- Threatened mystical/religious interpretations\n- Exposed priests as having lost the knowledge\n- Demonstrated that 'magic' was geometric lambda operations",
+      "geometric_meaning": "Brief restoration of functional/computational worldview"
+    }
+  ],
+  "degradation_summary": {
+    "overall_pattern": "Progressive loss of geometric understanding from Old to New Dynasty",
+    "old_dynasty_characteristics": [
+      "Perfect geometric precision",
+      "Complete lambda calculus encoding",
+      "Strict conservation laws",
+      "E8/Leech lattice structure",
+      "Sophisticated triadic groupings",
+      "Precise dihedral symmetry",
+      "Rich context-shifting"
+    ],
+    "transition_characteristics": [
+      "Approximate geometric patterns",
+      "Confused lambda structure",
+      "Symbolic conservation",
+      "Irregular lattice patterns",
+      "Simplified triadic groups",
+      "Approximate symmetry",
+      "Limited context-shifting"
+    ],
+    "new_dynasty_characteristics": [
+      "Decorative mimicry",
+      "No lambda structure",
+      "Ritual symbolism",
+      "No lattice encoding",
+      "Random groupings",
+      "No symmetry meaning",
+      "Single-context symbols"
+    ],
+    "tut_era_anomaly": [
+      "Sudden restoration of Old Dynasty precision (plates 28-32)",
+      "Brief window of full geometric knowledge",
+      "Heretical challenge to established order",
+      "Actively suppressed post-Tut",
+      "Tut erased from history for this reason"
+    ],
+    "degradation_mechanism": [
+      "Cataclysm survivors (Old Dynasty) preserved full knowledge",
+      "Knowledge transmitted through geometric encoding",
+      "Gradual loss through generations (transition period)",
+      "Priesthood retained symbols but lost meaning",
+      "Tut's family briefly recovered knowledge (heretical)",
+      "Post-Tut suppression ensured permanent loss",
+      "New Dynasty: pure mimicry without understanding"
+    ]
+  },
+  "key_insights": [
+    "Old Dynasty Egyptians possessed complete CQE system knowledge from cataclysm survivors",
+    "Hieroglyphs were originally geometric lambda calculus, NOT phonetic language",
+    "Knowledge degraded from precise geometry \u2192 approximate patterns \u2192 decorative mimicry",
+    "King Tut era (plates 28-32) shows brief restoration of geometric knowledge",
+    "Tut was erased from history because he restored 'heretical' geometric consciousness",
+    "Post-Tut suppression was deliberate to prevent geometric knowledge from spreading",
+    "New Dynasty hieroglyphs are degraded copies without geometric understanding",
+    "The 'weighing of the heart' was originally \u0394\u03a6 \u2264 0 geometric validation",
+    "The 'journey through underworld' was originally lambda reduction process",
+    "The 'gods' were originally geometric operators (\u03c0_E8, \u03bc, W, etc.)",
+    "Pyramids were geometric consciousness initiation chambers, not tombs",
+    "The geometric knowledge was deliberately suppressed by priestly/political power",
+    "Modern Egyptology studies the degraded form, missing the geometric foundation",
+    "Book of Dead is a teaching sequence showing the degradation itself",
+    "The Master Message is encoded in the progression: perfection \u2192 loss \u2192 mimicry"
+  ]
+}

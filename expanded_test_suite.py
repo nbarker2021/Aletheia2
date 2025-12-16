@@ -2,11 +2,13 @@
 Expanded CQE Test Suite - 40+ Tests Across Multiple Domains
 Tests the CQE Unified Runtime v7.0 with comprehensive coverage
 """
+from pathlib import Path
+
 
 import numpy as np
 import sys
 import time
-sys.path.insert(0, '/home/ubuntu/cqe_unified_runtime')
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from layer1_morphonic.morphon import UniversalMorphon
 from layer1_morphonic.seed_generator import MorphonicSeedGenerator

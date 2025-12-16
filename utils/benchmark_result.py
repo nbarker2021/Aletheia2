@@ -10,4 +10,3 @@ class BenchmarkResult:
     final_objective_value: float
     success: bool
 
-@dataclass

@@ -1,3 +1,4 @@
+from pathlib import Path
 #!/usr/bin/env python3
 """
 CQE Unified Runtime v7.0 - Comprehensive Testing Harness
@@ -20,7 +21,7 @@ import numpy as np
 from datetime import datetime
 
 # Add runtime to path
-sys.path.insert(0, '/home/ubuntu/cqe_unified_runtime')
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 class ComprehensiveTestHarness:
     """Comprehensive testing harness for CQE Unified Runtime v7.0"""
@@ -742,7 +743,7 @@ class ComprehensiveTestHarness:
             self.log("")
         
         # Save report to file
-        report_path = '/home/ubuntu/cqe_unified_runtime/TEST_REPORT.json'
+        report_path = str(Path(__file__).parent / 'TEST_REPORT.json')
         # Convert all results for JSON
         def convert_for_json(obj):
             if isinstance(obj, np.bool_):

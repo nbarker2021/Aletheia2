@@ -174,7 +174,7 @@ def demonstrate_ultimate_unified_system():
     print("-" * 50)
     
     # Export complete space state
-    export_filename = "/home/ubuntu/universal_atomic_space_state.json"
+    export_filename = str(Path(__file__).parent / "universal_atomic_space_state.json")
     space.export_space_state(export_filename)
     print(f"  Exported complete space state to: {export_filename}")
     

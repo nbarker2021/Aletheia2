@@ -1,5 +1,5 @@
 def create_sat_encoding_diagram():
-    \"\"\"Create SAT to E8 encoding schematic\"\"\"
+    """"""
     fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15, 5))
     
     # Panel 1: SAT Formula

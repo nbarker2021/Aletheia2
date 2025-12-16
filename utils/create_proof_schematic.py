@@ -1,5 +1,5 @@
 def create_proof_schematic():
-    \"\"\"Create schematic showing the proof strategy\"\"\"
+    """"""
     fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(14, 10))
     
     # Panel 1: Global Existence (E8 bounds)

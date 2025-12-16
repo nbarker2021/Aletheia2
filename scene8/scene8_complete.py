@@ -806,7 +806,7 @@ def main():
         )
         
         # Save video
-        output_path = Path(f"/home/ubuntu/scene8_output/{prompt[:20].replace(' ', '_')}.video")
+        output_path = Path(__file__).parent / "output" / f"{prompt[:20].replace(chr(32), chr(95))}.video"
         renderer.save_video(video, output_path, codec='e8lossless')
     
     print("\n" + "="*80)

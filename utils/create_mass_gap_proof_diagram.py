@@ -1,5 +1,5 @@
 def create_mass_gap_proof_diagram():
-    \"\"\"Create diagram illustrating the mass gap proof\"\"\"
+    """"""
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
     
     # Panel 1: E8 Kissing Number Theorem

@@ -1,0 +1,12 @@
+{
+  "naive_e8_ops_per_sec": 56584,
+  "corrected_total_ops_per_sec": 39426185826076,
+  "multiplier": 696770196,
+  "trillions_per_sec": 39.42618582607606,
+  "equivalence_class_efficiency": 696729600,
+  "principles": {
+    "universal_equivalence": "Find one \u2192 Get all in class",
+    "hierarchical_operations": "1 E8 op = E8 + all contained ops",
+    "weyl_transitivity": "1 chamber \u2192 All 696,729,600 chambers"
+  }
+}

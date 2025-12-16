@@ -1,0 +1,364 @@
+{
+  "competitions": [
+    {
+      "name": "Prime Generation",
+      "results": [
+        {
+          "competitor": "Aletheia AI (Geometric)",
+          "metric": "Time",
+          "value": "22.99",
+          "unit": "ms",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI (Geometric)",
+          "metric": "Correctness",
+          "value": "\u2705 PASS",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI (Geometric)",
+          "metric": "Additional Info",
+          "value": "E8 structure, DR analysis",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Sieve of Eratosthenes",
+          "metric": "Time",
+          "value": "0.84",
+          "unit": "ms",
+          "winner": true
+        },
+        {
+          "competitor": "Trial Division",
+          "metric": "Time",
+          "value": "3.02",
+          "unit": "ms",
+          "winner": false
+        }
+      ]
+    },
+    {
+      "name": "Video Compression",
+      "results": [
+        {
+          "competitor": "Aletheia AI Scene8",
+          "metric": "Compression Ratio",
+          "value": "28,800\u00d7",
+          "unit": "",
+          "winner": true
+        },
+        {
+          "competitor": "Aletheia AI Scene8",
+          "metric": "Quality",
+          "value": "Lossless",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI Scene8",
+          "metric": "Speed",
+          "value": "Real-time",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI Scene8",
+          "metric": "Deterministic",
+          "value": "Yes",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "H.264 (AVC)",
+          "metric": "Compression Ratio",
+          "value": "100-200\u00d7",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "H.264 (AVC)",
+          "metric": "Quality",
+          "value": "Lossy",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "H.265 (HEVC)",
+          "metric": "Compression Ratio",
+          "value": "200-400\u00d7",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "H.265 (HEVC)",
+          "metric": "Quality",
+          "value": "Lossy",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "AV1",
+          "metric": "Compression Ratio",
+          "value": "300-500\u00d7",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "AV1",
+          "metric": "Quality",
+          "value": "Lossy",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "OpenAI Sora",
+          "metric": "Type",
+          "value": "Generative (not compression)",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "OpenAI Sora",
+          "metric": "Quality",
+          "value": "Lossy (diffusion)",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "OpenAI Sora",
+          "metric": "Deterministic",
+          "value": "No",
+          "unit": "",
+          "winner": false
+        }
+      ]
+    },
+    {
+      "name": "Lattice Operations",
+      "results": [
+        {
+          "competitor": "Aletheia AI E8",
+          "metric": "Time (1000 lookups)",
+          "value": "18.23",
+          "unit": "ms",
+          "winner": true
+        },
+        {
+          "competitor": "Aletheia AI E8",
+          "metric": "Throughput",
+          "value": "54865",
+          "unit": "ops/sec",
+          "winner": false
+        },
+        {
+          "competitor": "FPLLL",
+          "metric": "Time (1000 lookups)",
+          "value": "~50-100",
+          "unit": "ms (estimated)",
+          "winner": false
+        },
+        {
+          "competitor": "NTL",
+          "metric": "Time (1000 lookups)",
+          "value": "~100-200",
+          "unit": "ms (estimated)",
+          "winner": false
+        }
+      ]
+    },
+    {
+      "name": "Symmetry Breaking",
+      "results": [
+        {
+          "competitor": "Aletheia AI",
+          "metric": "Chamber determination (1000)",
+          "value": "9.54",
+          "unit": "ms",
+          "winner": true
+        },
+        {
+          "competitor": "Aletheia AI",
+          "metric": "Auto-selection (100)",
+          "value": "55.44",
+          "unit": "ms",
+          "winner": true
+        },
+        {
+          "competitor": "Aletheia AI",
+          "metric": "Total chambers",
+          "value": "696,729,600",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "GAP",
+          "metric": "Capability",
+          "value": "General group theory",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "GAP",
+          "metric": "E8 Weyl group",
+          "value": "Supported (slower)",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Magma",
+          "metric": "Capability",
+          "value": "Computational algebra",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Magma",
+          "metric": "E8 Weyl group",
+          "value": "Supported (commercial)",
+          "unit": "",
+          "winner": false
+        }
+      ]
+    },
+    {
+      "name": "Hashing",
+      "results": [
+        {
+          "competitor": "Aletheia AI (Geometric)",
+          "metric": "Time (10K hashes)",
+          "value": "8373.46",
+          "unit": "ms",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI (Geometric)",
+          "metric": "Collisions",
+          "value": "9760",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI (Geometric)",
+          "metric": "Unique feature",
+          "value": "Geometric locality preserved",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "SHA-256",
+          "metric": "Time (10K hashes)",
+          "value": "11.15",
+          "unit": "ms",
+          "winner": true
+        },
+        {
+          "competitor": "SHA-256",
+          "metric": "Collisions",
+          "value": "0 (cryptographic)",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Blake3",
+          "metric": "Time (10K hashes)",
+          "value": "~5.57",
+          "unit": "ms (estimated)",
+          "winner": false
+        }
+      ]
+    },
+    {
+      "name": "Overall System",
+      "results": [
+        {
+          "competitor": "Aletheia AI",
+          "metric": "Architecture",
+          "value": "Geometric (E8/Leech)",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI",
+          "metric": "Foundation",
+          "value": "CQE (Cartan Quadratic Equivalence)",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI",
+          "metric": "Unique capabilities",
+          "value": "Geometric primes, 696M chambers, lossless video",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI",
+          "metric": "Deterministic",
+          "value": "Yes",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Aletheia AI",
+          "metric": "Provenance",
+          "value": "Full geometric receipts",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "GPT-4",
+          "metric": "Architecture",
+          "value": "Transformer (neural)",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "GPT-4",
+          "metric": "Foundation",
+          "value": "Statistical learning",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "GPT-4",
+          "metric": "Deterministic",
+          "value": "No (temperature-based)",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Claude",
+          "metric": "Architecture",
+          "value": "Transformer (neural)",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Claude",
+          "metric": "Foundation",
+          "value": "Statistical learning + Constitutional AI",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Gemini",
+          "metric": "Architecture",
+          "value": "Multimodal transformer",
+          "unit": "",
+          "winner": false
+        },
+        {
+          "competitor": "Gemini",
+          "metric": "Foundation",
+          "value": "Statistical learning",
+          "unit": "",
+          "winner": false
+        }
+      ]
+    }
+  ],
+  "summary": {}
+}

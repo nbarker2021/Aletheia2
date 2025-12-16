@@ -9,4 +9,3 @@ class ConstraintType(Enum):
     LOGICAL_CONSTRAINT = "logical_constraint"
     SEMANTIC_CONSTRAINT = "semantic_constraint"
 
-@dataclass
